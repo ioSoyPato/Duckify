@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player Design </title>
+    <title>Music Player Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    
 </head>
 <body>
 <style>
@@ -119,6 +117,14 @@ body {
   transform: scale(1.25);
 }
 
+/* Separación adicional para Play/Pause y Next Song */
+.play-pause {
+  margin-right: 40px; /* Incrementa la separación a la derecha */
+}
+
+.next-song {
+  margin-left: 40px; /* Incrementa la separación a la izquierda */
+}
 </style>
 
 <div class="container">
@@ -126,22 +132,20 @@ body {
     <h1>{{title}}</h1>
     <p>{{artist}}</p>
     
-    <audio controls id="song">
+    <audio controls id="song", style="display: none;">
         <source src="/static/tracks/{{genre}}/{{artist}}/{{title}}" type="audio/mpeg">
     </audio>
     <input type="range" value="0" id="progress">
 
     <div class="controls">
-        <div ><i class="fa-solid fa-backward"></i></div>
-        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
-        <div><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></div>
-
+        <button class="back-button"><i class="fa-solid fa-backward"></i></button>
+        <button class="play-pause" onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></button>
+        <button class="next-song"><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></button>
     </div>
     </div>
 </div>
 
 <script>
-
 let progress = document.getElementById('progress');
 let song = document.getElementById('song');
 let ctrlIcon = document.getElementById('ctrlIcon');
@@ -177,6 +181,9 @@ progress.onchange = function(){
     ctrlIcon.classList.remove('fa-play');
 }
 
+document.querySelector('.back-button').addEventListener('click', function() {
+    window.history.back();
+})
 
 </script>
 
