@@ -31,3 +31,20 @@ __Fast and Reliable Backend ⚡:__
 - To create an innovative music player that offers more than just playback functionality by integrating advanced recommendation features.
 - To enhance user satisfaction by providing personalized and highly relevant song suggestions.
 - To leverage AI and machine learning to continuously improve the recommendation system based on user feedback and interaction patterns.
+
+# Some images of the app
+
+Login
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/a1596f10-ce73-41c9-b62f-f6cccde17637)
+
+Home Page
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/e44db1b4-9ece-4418-a6e9-c84c042d995e)
+
+Music Player
+[Screencast from 17-05-24 13:23:21.webm](https://github.com/ioSoyPato/Duckify/assets/108914351/3adc2c00-caa7-4bd6-9f99-503a1b31599f)
+
+
+
+
+
+
