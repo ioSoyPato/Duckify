@@ -4,6 +4,8 @@ __Project Overview:__
 
 Duckify is a data engineering project aimed at developing an advanced music application that not only plays songs 🎵 but also leverages cutting-edge recommendation models to provide the best song suggestions. This application is designed to enhance the listening experience by using Artificial Intelligence (AI) 🤖 to analyze the current song being played and suggest the most suitable next track.
 
+__In addition to this, the project seeks to demonstrate knowledge in basic application architecture by mixing various programming languages ​​and creating a DockerFile that contains not only the application executable but also the complete architecture so that you can build your own DUCKIFY. For more details on how to build Duckify from the image, I invite you to see my other repository where the creation and execution of it is explained in detail.__
+
 ## Key Features:
 
 __Intelligent Song Recommendations 🎧:__
