@@ -42,6 +42,8 @@ Home Page
 
 Music Player
 [Screencast from 17-05-24 13:23:21.webm](https://github.com/ioSoyPato/Duckify/assets/108914351/3adc2c00-caa7-4bd6-9f99-503a1b31599f)
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/e51842ab-bc44-430b-8892-a90352d79717)
+
 
 
 
