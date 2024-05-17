@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 10%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    padding: 0 35px 0 5px;
+    font-size: 1rem;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.forget {
+    margin: 35px 0;
+    font-size: 0.85rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(255.255,255,1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: rgb(255,255,255,0.5);
+}
+
+.button {
+    display: inline-block; /* Para asegurar que se comporte como un botón */
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(197, 141, 57); /* Asegúrate de que los valores RGB están correctamente separados por comas */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center; /* Para centrar el texto en el enlace */
+    line-height: 40px; /* Para centrar verticalmente el texto */
+    color: inherit; /* Opcional, si quieres que el texto herede el color del texto circundante */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Usa rgba para controlar la opacidad */
+}
+
+
+.register {
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
