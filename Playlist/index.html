@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player Design</title>
+    <title>Current Song 🎧🎤</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <style>
@@ -27,11 +26,13 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(90deg, rgba(73,67,115,1) 0%, rgba(98,60,99,1) 45%, rgba(85,128,122,1) 95%);
-  background-repeat: no-repeat;
+  background: url(https://i.pinimg.com/originals/3e/fe/1c/3efe1cb845954233246f60d5d8395dd0.gif) no-repeat center center fixed;
+  background-size: cover;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  margin: 0;
 }
+
 
 .container {
   display: flex;
@@ -117,20 +118,55 @@ body {
   transform: scale(1.25);
 }
 
-/* Separación adicional para Play/Pause y Next Song */
 .play-pause {
-  margin-right: 40px; /* Incrementa la separación a la derecha */
+  margin-right: 40px;
 }
 
 .next-song {
-  margin-left: 40px; /* Incrementa la separación a la izquierda */
+  margin-left: 40px; 
 }
+
+.title1 {
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.arrow-green {
+  color: rgb(135, 243, 135);
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  position: fixed;
+  top: 0;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+        
 </style>
+
+<header>
+  <a href="/home" onclick="saveSongState()"><i class="fas fa-home"></i> Home</a>
+</header>
 
 <div class="container">
     <div class="music-player">
-    <h1>{{title}}</h1>
-    <p>{{artist}}</p>
+    <h1 class="title1">{{title}}</h1>
+    <p class="artist1">{{artist}}</p>
     
     <audio controls id="song", style="display: none;">
         <source src="/static/tracks/{{genre}}/{{artist}}/{{title}}" type="audio/mpeg">
@@ -140,52 +176,59 @@ body {
     <div class="controls">
         <button class="back-button"><i class="fa-solid fa-backward"></i></button>
         <button class="play-pause" onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></button>
-        <button class="next-song"><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></button>
+        <a href="{{url_for('get_next_song', genre=genre, artist=artist, title=title)}}" class="no-underline">
+          <button class="next-song">
+            <i class="fa-solid fa-forward arrow-green"></i>
+          </button>
+        </a>  
+        <button class="like-button">🍉</button>      
+        <!-- <button class="next-song"><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></button> -->
     </div>
     </div>
 </div>
 
 <script>
-let progress = document.getElementById('progress');
-let song = document.getElementById('song');
-let ctrlIcon = document.getElementById('ctrlIcon');
-
-song.onloadeddata = function(){
-    progress.max = song.duration;
-    progress.value = song.currentTime;
-}
-
-function playPause(){
-    if(ctrlIcon.classList.contains('fa-pause')){
-        song.pause();
-        ctrlIcon.classList.remove('fa-pause');
-        ctrlIcon.classList.add('fa-play');
-    }
-    else{
-        song.play();
-        ctrlIcon.classList.add('fa-pause');
-        ctrlIcon.classList.remove('fa-play');
-    }
-}
-
-if (song.play()){
-    setInterval(() => {
-        progress.value = song.currentTime;
-    }, 500);
-}
-
-progress.onchange = function(){
-    song.play();
-    song.currentTime = progress.value;
-    ctrlIcon.classList.add('fa-pause');
-    ctrlIcon.classList.remove('fa-play');
-}
-
-document.querySelector('.back-button').addEventListener('click', function() {
-    window.history.back();
-})
-
-</script>
+  let progress = document.getElementById('progress');
+  let song = document.getElementById('song');
+  let ctrlIcon = document.getElementById('ctrlIcon');
+  
+  song.onloadeddata = function(){
+      progress.max = song.duration;
+      progress.value = song.currentTime;
+  }
+  
+  function playPause(){
+      if(ctrlIcon.classList.contains('fa-pause')){
+          song.pause();
+          ctrlIcon.classList.remove('fa-pause');
+          ctrlIcon.classList.add('fa-play');
+      }
+      else{
+          song.play();
+          ctrlIcon.classList.add('fa-pause');
+          ctrlIcon.classList.remove('fa-play');
+      }
+  }
+  
+  if (song.play()){
+      setInterval(() => {
+          progress.value = song.currentTime;
+      }, 500);
+  }
+  
+  progress.onchange = function(){
+      song.play();
+      song.currentTime = progress.value;
+      ctrlIcon.classList.add('fa-pause');
+      ctrlIcon.classList.remove('fa-play');
+  }
+  
+  document.querySelector('.back-button').addEventListener('click', function() {
+      window.history.back();
+  })
+  
+  </script>
+  
 
 </body>
 </html>
