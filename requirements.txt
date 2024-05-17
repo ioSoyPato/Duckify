@@ -1,0 +1,10 @@
+fastapi
+pandas
+os
+re
+librosa
+random
+numpy
+sklearn
+warnings
+minisom
