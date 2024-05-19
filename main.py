@@ -37,7 +37,7 @@ def recommend_song(path:str, genre:str):
         recommendation = SONGS_DB[~SONGS_DB["shortedPath"].isin(currented_played)]
         recommendation = recommendation[recommendation["Genre"]== current_genre].head(1).shortedPath.unique()[0]
     else:
-        current_genre = SONGS_DB[SONGS_DB["Genre"]!=genre].head(1).Genre.unique()[0]
+        current_genre = SONGS_DB[SONGS_DB["Genre"]!=genre].Genre.unique()[random.randint(0,2)]
         recommendation = SONGS_DB[~SONGS_DB["shortedPath"].isin(currented_played)]
         recommendation = recommendation[recommendation["Genre"]== current_genre].head(1).shortedPath.unique()[0]
     
@@ -68,8 +68,10 @@ templates = Jinja2Templates(directory="Playlist")
 
 @app.get("/playlist/{genre}/{artist}/{title}", response_class=HTMLResponse)
 async def read_item(request: Request, genre: str, artist: str, title: str):
+    artist_show = artist.replace("_"," ")
+    title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
     return templates.TemplateResponse(
-        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre}
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_Show":title_Show}
     )
 
 @app.get("/playlist2/{genre}/{artist}/{title}", response_class=HTMLResponse)
@@ -80,8 +82,10 @@ async def get_next_song(request: Request, genre: str, artist: str, title:str):
         genre = a["genre"]
         artist = a["artist"]
         title = a["title"]
+        artist_show = artist.replace("_"," ")
+        title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
         return templates.TemplateResponse(
-        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id}
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_Show": title_Show}
     )
     return f"{genre}_song_1.mp3"
 
@@ -99,5 +103,5 @@ async def user():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=4444)
+    uvicorn.run(app, host="0.0.0.0", port=4444)
 
