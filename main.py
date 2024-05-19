@@ -63,8 +63,10 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="Playlist"), name="static")
 app.mount("/static2", StaticFiles(directory="Home_Page"), name="static2")
 app.mount("/static3", StaticFiles(directory="Users"), name="static3")
+app.mount("/static4", StaticFiles(directory="Home_Page2"), name="static4")
 
 templates = Jinja2Templates(directory="Playlist")
+templates2 = Jinja2Templates(directory="Home_Page2")
 
 @app.get("/playlist/{genre}/{artist}/{title}", response_class=HTMLResponse)
 async def read_item(request: Request, genre: str, artist: str, title: str):
@@ -96,6 +98,14 @@ def greeting():
 @app.get("/home")
 async def home():
     return FileResponse("Home_Page/index.html") 
+
+@app.get("/home/music/{genre}/{artist}/{title}")
+async def musicHome(request: Request, genre: str, artist: str, title:str):
+    if True:
+        return templates2.TemplateResponse(
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id}
+    )
+    return f"{genre}_song_1.mp3"
 
 @app.get("/")
 async def user():
