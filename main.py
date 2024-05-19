@@ -89,7 +89,7 @@ async def get_next_song(request: Request, genre: str, artist: str, title:str):
         return templates.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_Show": title_Show}
     )
-    return f"{genre}_song_1.mp3"
+    return {"error":f"error in the path {path}"}
 
 @app.get("/helloworld")
 def greeting():
@@ -105,7 +105,7 @@ async def musicHome(request: Request, genre: str, artist: str, title:str):
         return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id}
     )
-    return f"{genre}_song_1.mp3"
+    return {"error":f"error in the path {genre}/{artist}/{title}"}
 
 @app.get("/")
 async def user():
