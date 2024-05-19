@@ -33,7 +33,7 @@ __Fast and Reliable Backend ⚡:__
 - To leverage AI and machine learning to continuously improve the recommendation system based on user feedback and interaction patterns.
 
 ## Releases 
-In the __"Releases"__ section you will find an executable Dockerfile that downloads the necessary libraries to run the application and extracts the files from this same repository to run the application on port 4444 of your computer. To correctly use the __Dockerfile__ follow this simple "" steps:
+In the __"Releases"__ section you will find an executable Dockerfile that downloads the necessary libraries to run the application and extracts the files from this same repository to run the application on port 4444 of your computer. To correctly use the __Dockerfile__ follow this simple steps:
 
 If you __already have Docker__ running in your computer
 - __Download the Dockerfile__ from the releases section on this repository
