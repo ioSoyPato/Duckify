@@ -1,0 +1,220 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(73,67,115);
+    background: linear-gradient(90deg, rgb(104, 97, 146) 0%, rgb(118, 72, 119) 45%, rgba(85,128,122,1) 95%);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #e9e6e6;
+}
+
+.header {
+    background-color: #121212;
+    height: 80px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    width: 230px;
+    padding: 24px 24px 0 24px;
+}
+
+.main-content {
+    padding: 24px;
+}
+
+/* Sidebar styles */
+.sidebar .brand {
+    padding-bottom: 18px;
+}
+
+
+.sidebar .menu .menu--item {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.sidebar .menu.menu-extra .menu--item:not(:first-child) {
+    margin-top: 5px;
+}
+
+.sidebar .menu .menu--item a,
+.sidebar .sidebar--download-app a {
+    text-decoration: none;
+    color: #B3B3B3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    transition: all 350ms;
+}
+
+.sidebar .menu.menu-extra .menu--item a img {
+    opacity: 0.7;
+    transition: all 350ms;
+}
+
+.sidebar .menu.menu-extra .menu--item:hover a img {
+    opacity: 1;
+}
+
+.sidebar .menu .menu--item.active a,
+.sidebar .menu .menu--item:hover a,
+.sidebar .sidebar--download-app:hover a {
+    color: #cd50d1;
+}
+
+/* Active state of the menu item, adds a background color to the element */
+.sidebar .menu .menu--item.active:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 8px;
+    left: -16px; /* -(Sidebar's padding left) + 8px */
+    right: -16px; /* -(Sidebar's padding left) + 8px */
+    background: rgb(40, 40, 40);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+.main-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+}
+
+.sidebar {
+    /* ...existing styles... */
+    z-index: 1;
+}
+
+.main-content {
+    /* ...existing styles... */
+    margin-left: 280px;
+    z-index: 0;
+}
+
+.playlists-container {
+    display: flex; /* Esto activa Flexbox para el contenedor */
+    flex-wrap: wrap; /* Esto permite que los elementos se muevan a la siguiente línea si no hay suficiente espacio */
+}
+
+.playlist {
+    flex: 1; /* Esto permite que las playlists crezcan para llenar el espacio disponible, pero también puedes usar width: 50% o cualquier otra medida. */
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px; /* Adjust padding as needed */
+}
+
+.GPT {
+    background-color: aquamarine; /* Correcting the color as per your request */
+    color: black; /* Changing text color to black for better readability */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.GPT .iconify { 
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+#chatMessages {
+    height: 80%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#chatMessages div {
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    max-width: 80%;
+}
+
+#chatMessages div.user-message {
+    align-self: flex-end;
+    background-color: #A2D2FF; /* Light blue to differentiate user messages */
+}
+
+#chatInput {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #eef2f7;
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#chatInput:focus {
+    outline: none;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+#chatMessages {
+    height: 80%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff; /* Optional: adds a light background to the chat area */
+    border-radius: 8px; /* Rounded corners for the chat message area */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#chatMessages div {
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    max-width: 80%;
+    word-wrap: break-word; /* Ensures long words do not break the styling */
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+#chatMessages div.user-message {
+    align-self: flex-end;
+    background-color: #A2D2FF;
+    color: #404040; /* Darker text color for better readability */
+}
+
+#chatMessages div {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

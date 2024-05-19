@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Home</title>
+    <link rel="stylesheet" href="/static4/style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+<body>
+    <audio controls id="song" autoplay loop style="margin-left: 40%;">
+        <source src="/static/tracks/{{genre}}/{{artist}}/{{title}}" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>    
+    <nav class="sidebar">
+        <div class="sidebar--brand">
+            <img src="/static4/logo2.png" alt="Logo">
+        </div>
+        <div class="menu menu-extra">
+            <div class="menu--item active">
+                <a href="http://127.0.0.1:4444/home">
+                    <span class="iconify" data-icon="mdi:home-outline"></span>
+                    <span>Home</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span class="iconify" data-icon="mdi:magnify"></span>
+                    <span>Search</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span class="iconify" data-icon="mdi:library-music"></span>
+                    <span>Your Library</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span>🍉 Liked Songs</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="https://github.com/ioSoyPato/Data-Engineer-Project">
+                    <span class="iconify" data-icon="mdi:playlist-music"></span>
+                    <span>Git-Hub</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span class="iconify" data-icon="mdi:podcast"></span>
+                    <span>Settings</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="http://127.0.0.1:4444">
+                    <span class="iconify" data-icon="mdi:radio"></span>
+                    <span>log-out</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main class="main-content">
+        <h1 style="margin-bottom: 50px;">Our selection for you</h1>
+        <div class="playlists">
+            <div class="playlists-container">
+                <div class="playlist">
+                    <a href="http://127.0.0.1:4444/playlist/RAP/Childish_Gambino/Les.mp3">
+                        <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
+                        <div class="playlist--info">
+                            <h3>Les</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Nueva Cancion aquí -->
+                <div class="playlist">
+                    <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (Lyrics) we could be.mp3">
+                        <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
+                        <div class="playlist--info">
+                            <h3>Heroes</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Nueva Cancion aquí -->
+                <div class="playlist">
+                    <a href="http://127.0.0.1:4444/playlist/RAP/Metro_Boomin/Metro Boomin, The Weeknd, 21 Savage - Creepin' (Visualizer).mp3">
+                        <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                        <div class="playlist--info">
+                            <h3>Creepin'</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Nueva Cancion aquí -->
+                <div class="playlist">
+                    <a href="http://127.0.0.1:4444/playlist/POP/Ariana_Grande/Side To Side.mp3">
+                        <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                        <div class="playlist--info">
+                            <h3>Side To Side</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="playlists">
+                <div class="playlists-container">
+                    <div class="playlist">
+                        <a href="http://127.0.0.1:4444/playlist/ROCK/Imagine_Dragons/Imagine Dragons - Believer (Official Music Video).mp3">
+                            <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
+                            <div class="playlist--info">
+                                <h3>Believer</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Nueva Cancion aquí -->
+                    <div class="playlist">
+                        <a href="http://127.0.0.1:4444/playlist/RAP/Frank_Ocean/Frank Ocean - Nights.mp3">
+                            <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
+                            <div class="playlist--info">
+                                <h3>Nights</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Nueva Cancion aquí -->
+                    <div class="playlist">
+                        <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/David_Guetta/David Guetta Feat. Akon - Sexy Chick (Official Video).mp3">
+                            <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                            <div class="playlist--info">
+                                <h3>Sexy Chick</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Nueva Cancion aquí -->
+                    <div class="playlist">
+                        <a href="http://127.0.0.1:4444/playlist/POP/Pitbull/DJ Felli Fel - Boomerang Feat. Akon, Pitbull & Jermaine Dupri [Official Video] HD.mp3">
+                            <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                            <div class="playlist--info">
+                                <h3>Boomerang</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="playlists">
+                    <div class="playlists-container">
+                        <div class="playlist">
+                            <a href="http://127.0.0.1:4444/playlist/RAP/Kendrick_Lamar/Kendrick Lamar - Money Trees (Feat. Jay Rock).mp3">
+                                <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
+                                <div class="playlist--info">
+                                    <h3>Money Trees</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Nueva Cancion aquí -->
+                        <div class="playlist">
+                            <a href="http://127.0.0.1:4444/playlist/ROCK/Arctic_Monkeys/I Wanna Be Yours.mp3">
+                                <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
+                                <div class="playlist--info">
+                                    <h3>I Wanna Be Yours</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Nueva Cancion aquí -->
+                        <div class="playlist">
+                            <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/Julian_Casablancas/Daft Punk - Instant Crush (Video) ft. Julian Casablancas.mp3">
+                                <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                                <div class="playlist--info">
+                                    <h3>Instant Crush</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Nueva Cancion aquí -->
+                        <div class="playlist">
+                            <a href="http://127.0.0.1:4444/playlist/POP/Billie_Eilish/Billie Eilish - bad guy (Official Music Video).mp3">
+                                <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                                <div class="playlist--info">
+                                    <h3>Bad Guy</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="playlists">
+                        <div class="playlists-container">
+                            <div class="playlist">
+                                <a href="http://127.0.0.1:4444/playlist/ROCK/Gorillaz/Feel Good Inc..mp3">
+                                    <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
+                                    <div class="playlist--info">
+                                        <h3>Feel Good Inc</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Nueva Cancion aquí -->
+                            <div class="playlist">
+                                <a href="http://127.0.0.1:4444/playlist/RAP/Future/Future - Life Is Good (Official Music Video) ft. Drake.mp3">
+                                    <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
+                                    <div class="playlist--info">
+                                        <h3>Life is Good</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Nueva Cancion aquí -->
+                            <div class="playlist">
+                                <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/Fred_Again/Fred again.. feat. The Blessed Madonna - Marea (We’ve Lost Dancing) (Official Audio).mp3">
+                                    <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                                    <div class="playlist--info">
+                                        <h3>Marea</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Nueva Cancion aquí -->
+                            <div class="playlist">
+                                <a href="http://127.0.0.1:4444/playlist/POP/Kygo/Kygo - Stole The Show (Lyrics) feat. Parson James.mp3">
+                                    <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
+                                    <div class="playlist--info">
+                                        <h3>Stole the Show</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+            <h1>Ducki Playlist</h1>
+            <p>Create a Playlist using Ducki AI</p>
+            <div class="playlist">
+                <a href="http://127.0.0.1:7860">
+                    <img src="/static4/playlist-cover-2.png" alt="Playlist Cover 2">
+                    <div class="playlist--info">
+                        <h3>Soon</h3>
+                    </div>
+                </a>
+            </div>
+            <!-- <div id="chatContainer" style="display: none; position: fixed; right: 0; top: 0; width: 50%; height: 100%; background-color: rgb(92, 107, 241); z-index: 1000;">
+                <div style="padding: 20px;">
+                    <h2>Chat with DUCKIfy</h2>
+                    <div id="chatMessages" style="height: 80%; overflow-y: auto;"></div>
+                    <input type="text" id="chatInput" placeholder="Type a message..." style="width: 90%; margin-top: 10px;">
+                    <button onclick="sendMessage()">📩</button>
+                </div>
+            </div>            
+            <footer style="display: flex; margin-top: 30px;">
+                <div>
+                    <h2>Chat with DUCKI</h2>
+                    <button class="GPT" style= "background-color:aquamarine; padding: 10px 20px;">
+                        <span class="iconify" data-icon="mdi:message-text"></span>
+                    </button>                    
+                </div>
+            </footer> -->
+    </main>
+
+    <script>
+        // function toggleChat() {
+        //     var chatContainer = document.getElementById('chatContainer');
+        //     chatContainer.style.display = chatContainer.style.display === 'none' ? 'block' : 'none';
+        // }
+    
+        // document.querySelector('.GPT').addEventListener('click', toggleChat);
+    
+        // function sendMessage() {
+        //     var input = document.getElementById('chatInput');
+        //     var message = input.value.trim();
+        //     if (message) {
+        //         var chatMessages = document.getElementById('chatMessages');
+        //         var msgElement = document.createElement('div');
+        //         msgElement.textContent = message;
+        //         msgElement.className = 'user-message'; // Add class to style user messages differently
+        //         chatMessages.appendChild(msgElement);
+        //         input.value = ''; // Clear input after sending
+    
+        //         // Scroll to the bottom of the chat to show new messages
+        //         chatMessages.scrollTop = chatMessages.scrollHeight;
+        //     }
+        // }
+    
+        // // Add an event listener to the input to check for the Enter key
+        // document.getElementById('chatInput').addEventListener('keypress', function(event) {
+        //     if (event.key === 'Enter') {
+        //         event.preventDefault(); // Prevent the default action to stop the form from submitting
+        //         sendMessage(); // Call sendMessage if Enter is pressed
+        //     }
+        // });
+        
+        window.onload = function() {
+        var song = document.getElementById('song');
+        var savedTime = localStorage.getItem('currentTime');
+        if (savedTime) {
+            song.currentTime = parseFloat(savedTime);
+            song.play();
+        }
+        else {console.log('No saved time');}
+    }
+
+    </script>    
+</body>
