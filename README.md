@@ -37,8 +37,8 @@ In the __"Releases"__ section you will find an executable Dockerfile that downlo
 
 If you __already have Docker__ running in your computer
 - Download the Docker file from the releases section on this repository
-- Open your terminal and place your self on the directory you pasted the Dockerfile, then run __$ docker build --tag tagname .__
-- Once the image is created execute the container with the next command __$ docker run -it tagname__
+- Open your terminal and place your self on the directory you pasted the Dockerfile, then run __$ docker build --tag duckify .__
+- Once the image is created execute the container with the next command __$ docker run -it duckify__
 - The terminal should show the port 4444 as an executable link if it doesn't just open the port on any WebBrowser
 # Some images of the app
 
