@@ -40,6 +40,10 @@ If you __already have Docker__ running in your computer
 - Open your terminal and place your self on the directory you pasted the Dockerfile, then run __$ docker build --tag duckify .__
 - Once the image is created execute the container with the next command __$ docker run -it duckify__
 - The terminal should show the port 4444 as an executable link if it doesn't just open the port on any WebBrowser
+
+If you __don't have Docker__ running in your computer
+- Download an execute Docker 👉 https://docs.docker.com/engine/install/
+
 # Some images of the app
 
 Login
