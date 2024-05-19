@@ -159,13 +159,18 @@ header a {
         
 </style>
 
-<header>
-  <a href="/home" onclick="saveSongState()"><i class="fas fa-home"></i> Home</a>
+
+<header style="margin-top: 80px;">
+  <a href="{{url_for('musicHome', genre=genre, artist=artist, title=title)}}" class="no-underline">
+    <button class="next-song">
+      <i class="fas fa-home">Home</i>
+    </button>
+  </a>  
 </header>
 
 <div class="container">
     <div class="music-player">
-    <h1 class="title1">{{title}}</h1>
+    <h1 class="title1">{{title_Show}}</h1>
     <p class="artist1">{{artist}}</p>
     
     <audio controls id="song", style="display: none;">
@@ -226,6 +231,11 @@ header a {
   document.querySelector('.back-button').addEventListener('click', function() {
       window.history.back();
   })
+
+  window.onbeforeunload = function() {
+    localStorage.setItem('currentTime', song.currentTime);
+  }
+
   
   </script>
   
