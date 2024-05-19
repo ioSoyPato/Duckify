@@ -34,10 +34,12 @@ __Fast and Reliable Backend ⚡:__
 
 ## Releases 
 In the __"Releases"__ section you will find an executable Dockerfile that downloads the necessary libraries to run the application and extracts the files from this same repository to run the application on port 4444 of your computer. To correctly use the __Dockerfile__ follow this simple "" steps:
-- a
-- b
-- c
 
+If you __already have Docker__ running in your computer
+- Download the Docker file from the releases section on this repository
+- Open your terminal and place your self on the directory you pasted the Dockerfile, then run __$ docker build --tag <tagname> .__
+- Once the image is created execute the container with the next command __$ docker run -it <tagname>__
+- The terminal should show the port 4444 as an executable link if it doesn't just open the port on any WebBrowser
 # Some images of the app
 
 Login
