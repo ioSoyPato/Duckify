@@ -101,6 +101,10 @@ async def home():
 async def user():
     return FileResponse("Users/index.html")
 
+@app.get("/status")
+async def status():
+    return {"status": "running"}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=4444, timeout_keep_alive=120)
