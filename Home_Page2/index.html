@@ -19,7 +19,7 @@
         </div>
         <div class="menu menu-extra">
             <div class="menu--item active">
-                <a href="http://127.0.0.1:4444/home">
+                <a href="http://127.0.0.1:4444/home/music/">
                     <span class="iconify" data-icon="mdi:home-outline"></span>
                     <span>Home</span>
                 </a>
@@ -42,7 +42,7 @@
                 </a>
             </div>
             <div class="menu--item">
-                <a href="https://github.com/ioSoyPato/Data-Engineer-Project">
+                <a href="https://github.com/ioSoyPato/Duckify" target="_blank">
                     <span class="iconify" data-icon="mdi:playlist-music"></span>
                     <span>Git-Hub</span>
                 </a>
@@ -60,9 +60,9 @@
                 </a>
             </div>
         </div>
-        <div class="container" style="margin-top: 50px;">
+        <div class="container" style="margin-top: 80px;">
             <div class="music-player">
-            <h1 class="title1">{{title_show}}</h1>
+            <h1 class="title1" style="font-size:large;">{{title_show}}</h1>
             <p class="artist1">{{artist_show}}</p>
             
             <audio controls id="song", style="display: none;">
@@ -73,14 +73,14 @@
             <div class="controls">
                 <button class="back-button"><i class="fa-solid fa-backward"></i></button>
                 <button class="play-pause" onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></button>
-                <!-- <a href="{{url_for('get_next_song', genre=genre, artist=artist, title=title)}}" class="no-underline">
+                <a href="{{url_for('get_next_song_home', genre=genre, artist=artist, title=title)}}" class="no-underline">
                   <button class="next-song">
                     <i class="fa-solid fa-forward arrow-green"></i>
                   </button>
-                </a>   -->
-                <button class="next-song">
+                </a>  
+                <!-- <button class="next-song">
                     <i class="fa-solid fa-forward arrow-green"></i>
-                </button>
+                </button> -->
                 <button class="like-button">🍉</button>      
                 <!-- <button class="next-song"><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></button> -->
             </div>
@@ -94,7 +94,7 @@
         <div class="playlists">
             <div class="playlists-container">
                 <div class="playlist">
-                    <a href="http://127.0.0.1:4444/playlist/RAP/Childish_Gambino/Les.mp3">
+                    <a href="http://127.0.0.1:4444/home/music/RAP/Childish_Gambino/Les.mp3">
                         <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
                         <div class="playlist--info">
                             <h3>Les</h3>
@@ -103,7 +103,7 @@
                 </div>
                 <!-- Nueva Cancion aquí -->
                 <div class="playlist">
-                    <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (Lyrics) we could be.mp3">
+                    <a href="http://127.0.0.1:4444/home/music/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (Lyrics) we could be.mp3">
                         <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
                         <div class="playlist--info">
                             <h3>Heroes</h3>
@@ -112,7 +112,7 @@
                 </div>
                 <!-- Nueva Cancion aquí -->
                 <div class="playlist">
-                    <a href="http://127.0.0.1:4444/playlist/RAP/Metro_Boomin/Metro Boomin, The Weeknd, 21 Savage - Creepin' (Visualizer).mp3">
+                    <a href="http://127.0.0.1:4444/home/music/RAP/Metro_Boomin/Metro Boomin, The Weeknd, 21 Savage - Creepin' (Visualizer).mp3">
                         <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                         <div class="playlist--info">
                             <h3>Creepin'</h3>
@@ -121,7 +121,7 @@
                 </div>
                 <!-- Nueva Cancion aquí -->
                 <div class="playlist">
-                    <a href="http://127.0.0.1:4444/playlist/POP/Ariana_Grande/Side To Side.mp3">
+                    <a href="http://127.0.0.1:4444/home/music/POP/Ariana_Grande/Side To Side.mp3">
                         <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                         <div class="playlist--info">
                             <h3>Side To Side</h3>
@@ -134,7 +134,7 @@
             <div class="playlists">
                 <div class="playlists-container">
                     <div class="playlist">
-                        <a href="http://127.0.0.1:4444/playlist/ROCK/Imagine_Dragons/Imagine Dragons - Believer (Official Music Video).mp3">
+                        <a href="http://127.0.0.1:4444/home/music/ROCK/Imagine_Dragons/Imagine Dragons - Believer (Official Music Video).mp3">
                             <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
                             <div class="playlist--info">
                                 <h3>Believer</h3>
@@ -143,7 +143,7 @@
                     </div>
                     <!-- Nueva Cancion aquí -->
                     <div class="playlist">
-                        <a href="http://127.0.0.1:4444/playlist/RAP/Frank_Ocean/Frank Ocean - Nights.mp3">
+                        <a href="http://127.0.0.1:4444/home/music/RAP/Frank_Ocean/Frank Ocean - Nights.mp3">
                             <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
                             <div class="playlist--info">
                                 <h3>Nights</h3>
@@ -152,7 +152,7 @@
                     </div>
                     <!-- Nueva Cancion aquí -->
                     <div class="playlist">
-                        <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/David_Guetta/David Guetta Feat. Akon - Sexy Chick (Official Video).mp3">
+                        <a href="http://127.0.0.1:4444/home/music/ELECTRONIC/David_Guetta/David Guetta Feat. Akon - Sexy Chick (Official Video).mp3">
                             <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                             <div class="playlist--info">
                                 <h3>Sexy Chick</h3>
@@ -161,7 +161,7 @@
                     </div>
                     <!-- Nueva Cancion aquí -->
                     <div class="playlist">
-                        <a href="http://127.0.0.1:4444/playlist/POP/Pitbull/DJ Felli Fel - Boomerang Feat. Akon, Pitbull & Jermaine Dupri [Official Video] HD.mp3">
+                        <a href="http://127.0.0.1:4444/home/music/POP/Pitbull/DJ Felli Fel - Boomerang Feat. Akon, Pitbull & Jermaine Dupri [Official Video] HD.mp3">
                             <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                             <div class="playlist--info">
                                 <h3>Boomerang</h3>
@@ -174,7 +174,7 @@
                 <div class="playlists">
                     <div class="playlists-container">
                         <div class="playlist">
-                            <a href="http://127.0.0.1:4444/playlist/RAP/Kendrick_Lamar/Kendrick Lamar - Money Trees (Feat. Jay Rock).mp3">
+                            <a href="http://127.0.0.1:4444/home/music/RAP/Kendrick_Lamar/Kendrick Lamar - Money Trees (Feat. Jay Rock).mp3">
                                 <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
                                 <div class="playlist--info">
                                     <h3>Money Trees</h3>
@@ -183,7 +183,7 @@
                         </div>
                         <!-- Nueva Cancion aquí -->
                         <div class="playlist">
-                            <a href="http://127.0.0.1:4444/playlist/ROCK/Arctic_Monkeys/I Wanna Be Yours.mp3">
+                            <a href="http://127.0.0.1:4444/home/music/ROCK/Arctic_Monkeys/I Wanna Be Yours.mp3">
                                 <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
                                 <div class="playlist--info">
                                     <h3>I Wanna Be Yours</h3>
@@ -192,7 +192,7 @@
                         </div>
                         <!-- Nueva Cancion aquí -->
                         <div class="playlist">
-                            <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/Julian_Casablancas/Daft Punk - Instant Crush (Video) ft. Julian Casablancas.mp3">
+                            <a href="http://127.0.0.1:4444/home/music/ELECTRONIC/Julian_Casablancas/Daft Punk - Instant Crush (Video) ft. Julian Casablancas.mp3">
                                 <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                                 <div class="playlist--info">
                                     <h3>Instant Crush</h3>
@@ -201,7 +201,7 @@
                         </div>
                         <!-- Nueva Cancion aquí -->
                         <div class="playlist">
-                            <a href="http://127.0.0.1:4444/playlist/POP/Billie_Eilish/Billie Eilish - bad guy (Official Music Video).mp3">
+                            <a href="http://127.0.0.1:4444/home/music/POP/Billie_Eilish/Billie Eilish - bad guy (Official Music Video).mp3">
                                 <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                                 <div class="playlist--info">
                                     <h3>Bad Guy</h3>
@@ -214,7 +214,7 @@
                     <div class="playlists">
                         <div class="playlists-container">
                             <div class="playlist">
-                                <a href="http://127.0.0.1:4444/playlist/ROCK/Gorillaz/Feel Good Inc..mp3">
+                                <a href="http://127.0.0.1:4444/home/music/ROCK/Gorillaz/Feel Good Inc..mp3">
                                     <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 1">
                                     <div class="playlist--info">
                                         <h3>Feel Good Inc</h3>
@@ -223,7 +223,7 @@
                             </div>
                             <!-- Nueva Cancion aquí -->
                             <div class="playlist">
-                                <a href="http://127.0.0.1:4444/playlist/RAP/Future/Future - Life Is Good (Official Music Video) ft. Drake.mp3">
+                                <a href="http://127.0.0.1:4444/home/music/RAP/Future/Future - Life Is Good (Official Music Video) ft. Drake.mp3">
                                     <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
                                     <div class="playlist--info">
                                         <h3>Life is Good</h3>
@@ -232,7 +232,7 @@
                             </div>
                             <!-- Nueva Cancion aquí -->
                             <div class="playlist">
-                                <a href="http://127.0.0.1:4444/playlist/ELECTRONIC/Fred_Again/Fred again.. feat. The Blessed Madonna - Marea (We’ve Lost Dancing) (Official Audio).mp3">
+                                <a href="http://127.0.0.1:4444/home/music/ELECTRONIC/Fred_Again/Fred again.. feat. The Blessed Madonna - Marea (We’ve Lost Dancing) (Official Audio).mp3">
                                     <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                                     <div class="playlist--info">
                                         <h3>Marea</h3>
@@ -241,7 +241,7 @@
                             </div>
                             <!-- Nueva Cancion aquí -->
                             <div class="playlist">
-                                <a href="http://127.0.0.1:4444/playlist/POP/Kygo/Kygo - Stole The Show (Lyrics) feat. Parson James.mp3">
+                                <a href="http://127.0.0.1:4444/home/music/POP/Kygo/Kygo - Stole The Show (Lyrics) feat. Parson James.mp3">
                                     <img src="/static4/playlist-cover-1.png" alt="Playlist Cover 2">
                                     <div class="playlist--info">
                                         <h3>Stole the Show</h3>

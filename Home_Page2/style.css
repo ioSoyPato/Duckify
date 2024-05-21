@@ -236,6 +236,7 @@ footer {
     background: rgba(4, 68, 105, 1);
     color: var(--primary-clr);
     width: 190px;
+    height: 300px;
     padding: 25px 35px;
     border-radius: 20px;
   }
@@ -272,7 +273,7 @@ footer {
   }
   
   .controls {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
   }
