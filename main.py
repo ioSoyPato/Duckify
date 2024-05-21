@@ -61,7 +61,6 @@ app = FastAPI()
 
 # Create a route to serve the static files
 app.mount("/static", StaticFiles(directory="Playlist"), name="static")
-app.mount("/static2", StaticFiles(directory="Home_Page"), name="static2")
 app.mount("/static3", StaticFiles(directory="Users"), name="static3")
 app.mount("/static4", StaticFiles(directory="Home_Page2"), name="static4")
 
@@ -97,7 +96,7 @@ def greeting():
     
 @app.get("/home")
 async def home():
-    return FileResponse("Home_Page/index.html") 
+    return {"error":"This method doesnt exist anymore, please use /home/music"}
 
 @app.get("/home/music/{genre}/{artist}/{title}")
 async def musicHome(request: Request, genre: str, artist: str, title:str):
@@ -108,6 +107,38 @@ async def musicHome(request: Request, genre: str, artist: str, title:str):
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_show":title_Show, "artist_show":artist_show}
     )
     return {"error":f"error in the path {genre}/{artist}/{title}"}
+
+@app.get("/home/music/{genre}/{artist}/{title}")
+async def musicHome(request: Request, genre: str, artist: str, title:str):
+    artist_show = artist.replace("_"," ")
+    title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+    if True:
+        return templates2.TemplateResponse(
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_show":title_Show, "artist_show":artist_show}
+    )
+    return {"error":f"error in the path {genre}/{artist}/{title}"}
+    
+
+@app.get("/home2/music/{genre}/{artist}/{title}", response_class=HTMLResponse)
+async def get_next_song_home(request: Request, genre: str, artist: str, title:str):
+    path = f"/tracks/{genre}/{artist}/{title}"
+    if True:
+        a = recommend_song(path,genre)
+        genre = a["genre"]
+        artist = a["artist"]
+        title = a["title"]
+        artist_show = artist.replace("_"," ")
+        title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+        return templates2.TemplateResponse(
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_show": title_Show, "artist_show":artist_show}
+    )
+    return {"error":f"error in the path {path}"}
+
+@app.get("/home/music")
+async def home(request: Request):
+    return templates2.TemplateResponse(
+        request=request, name="index.html", context={"title": "Side To Side.mp3", "artist": "artist", "genre": "POP", "title_show": "Duckify", "artist_show":"by Pato & Pepechui"}
+    )
 
 @app.get("/")
 async def user():
