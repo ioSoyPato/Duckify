@@ -101,9 +101,11 @@ async def home():
 
 @app.get("/home/music/{genre}/{artist}/{title}")
 async def musicHome(request: Request, genre: str, artist: str, title:str):
+    artist_show = artist.replace("_"," ")
+    title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
     if True:
         return templates2.TemplateResponse(
-        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id}
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_show":title_Show, "artist_show":artist_show}
     )
     return {"error":f"error in the path {genre}/{artist}/{title}"}
 
