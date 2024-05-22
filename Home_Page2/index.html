@@ -8,7 +8,7 @@
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
+<body id="body">
     <!-- <audio controls id="song" autoplay loop style="margin-left: 40%; margin-top: 20px; display: none;">
         <source src="/static/tracks/{{genre}}/{{artist}}/{{title}}" type="audio/mpeg">
         Tu navegador no soporta audio HTML5.
@@ -261,55 +261,22 @@
                     </div>
                 </a>
             </div>
-            <!-- <div id="chatContainer" style="display: none; position: fixed; right: 0; top: 0; width: 50%; height: 100%; background-color: rgb(92, 107, 241); z-index: 1000;">
-                <div style="padding: 20px;">
-                    <h2>Chat with DUCKIfy</h2>
-                    <div id="chatMessages" style="height: 80%; overflow-y: auto;"></div>
-                    <input type="text" id="chatInput" placeholder="Type a message..." style="width: 90%; margin-top: 10px;">
-                    <button onclick="sendMessage()">📩</button>
-                </div>
-            </div>            
-            <footer style="display: flex; margin-top: 30px;">
-                <div>
-                    <h2>Chat with DUCKI</h2>
-                    <button class="GPT" style= "background-color:aquamarine; padding: 10px 20px;">
-                        <span class="iconify" data-icon="mdi:message-text"></span>
-                    </button>                    
-                </div>
-            </footer> -->
     </main>
 
     <script>
-        // function toggleChat() {
-        //     var chatContainer = document.getElementById('chatContainer');
-        //     chatContainer.style.display = chatContainer.style.display === 'none' ? 'block' : 'none';
-        // }
-    
-        // document.querySelector('.GPT').addEventListener('click', toggleChat);
-    
-        // function sendMessage() {
-        //     var input = document.getElementById('chatInput');
-        //     var message = input.value.trim();
-        //     if (message) {
-        //         var chatMessages = document.getElementById('chatMessages');
-        //         var msgElement = document.createElement('div');
-        //         msgElement.textContent = message;
-        //         msgElement.className = 'user-message'; // Add class to style user messages differently
-        //         chatMessages.appendChild(msgElement);
-        //         input.value = ''; // Clear input after sending
-    
-        //         // Scroll to the bottom of the chat to show new messages
-        //         chatMessages.scrollTop = chatMessages.scrollHeight;
-        //     }
-        // }
-    
-        // // Add an event listener to the input to check for the Enter key
-        // document.getElementById('chatInput').addEventListener('keypress', function(event) {
-        //     if (event.key === 'Enter') {
-        //         event.preventDefault(); // Prevent the default action to stop the form from submitting
-        //         sendMessage(); // Call sendMessage if Enter is pressed
-        //     }
-        // });
+        // Add an event listener to the input to check for the Enter key 
+        document.getElementById('body').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Prevent the default action to stop the form from submitting
+                playPause(); 
+            }
+        });
+        document.getElementById('body').addEventListener('keypress', function(event) {
+            if (event.key === 'l') {
+                event.preventDefault(); // Prevent the default action to stop the form from submitting
+                playPause();  //Change to like
+            }
+        });
         
         window.onload = function() {
         var song = document.getElementById('song');
@@ -348,6 +315,10 @@
           progress.value = song.currentTime;
       }, 500);
     }
+
+    document.querySelector('.back-button').addEventListener('click', function() {
+      window.history.back();
+  })
 
     </script>    
 </body>
