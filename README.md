@@ -50,11 +50,15 @@ Login
 ![image](https://github.com/ioSoyPato/Duckify/assets/108914351/a1596f10-ce73-41c9-b62f-f6cccde17637)
 
 Home Page
-![image](https://github.com/ioSoyPato/Duckify/assets/108914351/e44db1b4-9ece-4418-a6e9-c84c042d995e)
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/b0b42c7f-7112-404c-907f-550009d58492)
+
 
 Music Player
 [Screencast from 17-05-24 13:23:21.webm](https://github.com/ioSoyPato/Duckify/assets/108914351/3adc2c00-caa7-4bd6-9f99-503a1b31599f)
 ![image](https://github.com/ioSoyPato/Duckify/assets/108914351/77ddba7f-1fa9-4f7e-9004-018a54e32a9d)
+
+Playlist Player
+__coming soon__
 
 
 
