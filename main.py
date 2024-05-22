@@ -45,7 +45,7 @@ def recommend_song(path:str, genre:str):
     
     return {"genre":recommendation[2], "artist":recommendation[3], "title":recommendation[4]}
 
-### CHAT ###
+### CHAT Removed Feature###
 
 
 ### FASTAPI ###
@@ -55,6 +55,12 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+
+
+def cleaned_data(artist:str, genre:str, title:str):
+    artist = artist.replace("_"," ")
+    title = title.replace(".mp3","").replace(artist,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+    return [artist, title]
 
 
 app = FastAPI()
@@ -69,8 +75,8 @@ templates2 = Jinja2Templates(directory="Home_Page2")
 
 @app.get("/playlist/{genre}/{artist}/{title}", response_class=HTMLResponse)
 async def read_item(request: Request, genre: str, artist: str, title: str):
-    artist_show = artist.replace("_"," ")
-    title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+    artist_show = cleaned_data(artist, genre)[0]
+    title_Show = cleaned_data(artist, genre)[1]
     return templates.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_Show":title_Show}
     )
@@ -83,8 +89,8 @@ async def get_next_song(request: Request, genre: str, artist: str, title:str):
         genre = a["genre"]
         artist = a["artist"]
         title = a["title"]
-        artist_show = artist.replace("_"," ")
-        title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+        artist_show = cleaned_data(artist, genre, title)[0]
+        title_Show = cleaned_data(artist, genre)[1]
         return templates.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_Show": title_Show}
     )
@@ -100,8 +106,8 @@ async def home():
 
 @app.get("/home/music/{genre}/{artist}/{title}")
 async def musicHome(request: Request, genre: str, artist: str, title:str):
-    artist_show = artist.replace("_"," ")
-    title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+    artist_show = cleaned_data(artist, genre, title)[0]
+    title_Show = cleaned_data(artist, genre, title)[1]
     if True:
         return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_show":title_Show, "artist_show":artist_show}
@@ -110,8 +116,8 @@ async def musicHome(request: Request, genre: str, artist: str, title:str):
 
 @app.get("/home/music/{genre}/{artist}/{title}")
 async def musicHome(request: Request, genre: str, artist: str, title:str):
-    artist_show = artist.replace("_"," ")
-    title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+    artist_show = cleaned_data(artist, genre, title)[0]
+    title_Show = cleaned_data(artist, genre, title)[1]
     if True:
         return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_show":title_Show, "artist_show":artist_show}
@@ -127,8 +133,8 @@ async def get_next_song_home(request: Request, genre: str, artist: str, title:st
         genre = a["genre"]
         artist = a["artist"]
         title = a["title"]
-        artist_show = artist.replace("_"," ")
-        title_Show = title.replace(".mp3","").replace(artist_show,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+        artist_show = cleaned_data(artist, genre, title)[0]
+        title_Show = cleaned_data(artist, genre, title)[1]
         return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_show": title_Show, "artist_show":artist_show}
     )
