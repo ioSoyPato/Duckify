@@ -86,6 +86,24 @@ def recommend_song(path:str, genre:str):
     
     return {"genre":recommendation[2], "artist":recommendation[3], "title":recommendation[4]}
 
+def recommend_song_SARSA():
+    pass
+
+def get_lyrics(title, artist):
+    import requests
+    url = f"https://api.lyrics.ovh/v1/{artist}/{title}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        if 'lyrics' in data:
+            return data['lyrics']
+        else:
+            return "Lyrics not available. Sorry!"
+    else:
+        return "Lyrics not available. Sorry! 🐣🐣"
+
+    
+
 ### CHAT Removed Feature###
 
 
@@ -100,7 +118,7 @@ from fastapi.templating import Jinja2Templates
 
 def cleaned_data(artist:str, genre:str, title:str):
     artist = artist.replace("_"," ")
-    title = title.replace(".mp3","").replace(artist,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","")
+    title = title.replace(".mp3","").replace(artist,"").replace(genre,"").replace(".","").replace("_","").replace(",","").replace("-","").replace("(lyrics)","").replace("(Official Video)","").replace("(Official Music Video)","").replace("Official Video","").replace("[]","").replace("()","").replace("Music Video","").replace("(Lyrics)","").replace("(video)","").replace("(Video)","").replace("VIDEO","").replace(" ft ","")
     return [artist, title]
 
 
@@ -116,10 +134,11 @@ templates2 = Jinja2Templates(directory="Home_Page2")
 
 @app.get("/playlist/{genre}/{artist}/{title}", response_class=HTMLResponse)
 async def read_item(request: Request, genre: str, artist: str, title: str):
-    artist_show = cleaned_data(artist, genre)[0]
-    title_Show = cleaned_data(artist, genre)[1]
+    artist_show = cleaned_data(artist, genre, title)[0]
+    title_Show = cleaned_data(artist, genre, title)[1]
+    lyrics = get_lyrics(title_Show, artist_show)
     return templates.TemplateResponse(
-        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_Show":title_Show}
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_Show":title_Show,"lyrics":lyrics}
     )
 
 @app.get("/playlist2/{genre}/{artist}/{title}", response_class=HTMLResponse)
@@ -187,6 +206,18 @@ async def home(request: Request):
     return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": "Side To Side.mp3", "artist": "artist", "genre": "POP", "title_show": "Duckify", "artist_show":"by Pato & Pepechui"}
     )
+
+@app.get("/home/musci/like/{genre}/{artist}/{title}")
+async def musicHome(request: Request, genre: str, artist: str, title:str):
+    artist_show = cleaned_data(artist, genre, title)[0]
+    title_Show = cleaned_data(artist, genre, title)[1]
+    SONGS_DB.loc[SONGS_DB["shortedPath"]==f"/tracks/{genre}/{artist}/{title}", "liked"] = 1
+    if True:
+        return templates2.TemplateResponse(
+        request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": id, "title_show":title_Show, "artist_show":artist_show}
+    )
+    return {"error":f"error in the path {genre}/{artist}/{title}"}
+    
 
 @app.get("/")
 async def user():
