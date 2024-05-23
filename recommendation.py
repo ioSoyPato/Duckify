@@ -25,12 +25,33 @@ currented_played = []
 
 # Function to update the times played of a song
 def update_times_played(path:str):
+    '''
+    Input.
+    path: str, path of the song to update the times played
+
+    Output.
+    None
+
+    Description.
+    Update the times played of a song in the DataBase
+    '''
     SONGS_DB.loc[SONGS_DB["shortedPath"]==path, "TimesPlayed_Global"] += 1
     SONGS_DB.to_csv("DataBase/SONGS_DB.csv")
     print(f"Updated: {path}")
 
 # Function to graph the song spectogram in comparison to the recommended song spectogram
 def graphic_spectogram(path1:str, path2:str):
+    '''
+    Input.
+    path1: str, path of the first song to compare
+    path2: str, path of the second song to compare
+
+    Output.
+    dict, with the title of the songs
+
+    Description.
+    Create a spectogram of the songs and save it as a png
+    '''
     path1 = f"Playlist/{path1}"
     title1 = r.split("/",path1)[-1]
     path2 = f"Playlist/{path2}"
@@ -58,6 +79,17 @@ def graphic_spectogram(path1:str, path2:str):
 
 # Function to create a simple recommendation based on the SubGenre(spectrogram clustering) and the times played globally
 def recommend_song(path:str, genre:str):
+    '''
+    Input.
+    path: str, path of the song to recommend
+    genre: str, genre of the song to recommend
+
+    Output.
+    dict, with the genre, artist and title of the recommended song
+
+    Description.
+    Create a simple recommendation based on the SubGenre(spectrogram clustering) and the times played globally of the songs
+    '''
     currented_played.append(path)
     randipity = random.randint(0,6)
     update_times_played(path)
@@ -84,6 +116,17 @@ def recommend_song_SARSA():
 
 # Function to extract the lyrics of a song using requests 
 def get_lyrics(title, artist):
+    '''
+    Input.
+    title: str, title of the song
+    artist: str, artist of the song
+
+    Output.
+    str, lyrics of the song
+
+    Description.
+    Extract the lyrics of a song using requests and a public API
+    '''
     url = f"https://api.lyrics.ovh/v1/{artist}/{title}"
     response = requests.get(url)
     if response.status_code == 200:
