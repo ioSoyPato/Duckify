@@ -1,423 +1,423 @@
-ID,shortedPath,subgenres,Genre,TimesPlayed_Global
-1,/tracks/ROCK/Metallica/Metallica_ Nothing Else Matters (Official Music Video).mp3,2,ROCK,10
-2,/tracks/ROCK/Metallica/Metallica_ Enter Sandman (Official Music Video).mp3,1,ROCK,5
-3,/tracks/ROCK/Metallica/Metallica_ The Unforgiven (Official Music Video).mp3,1,ROCK,2
-4,/tracks/ROCK/Jamie_xx/Jamie xx - Gosh.mp3,4,ROCK,2
-5,/tracks/ROCK/Jamie_xx/Jamie xx - KILL DEM (Official Audio).mp3,3,ROCK,0
-6,/tracks/ROCK/Jamie_xx/Jamie xx - It's So Good.mp3,2,ROCK,0
-7,/tracks/ROCK/AC_DC/AC-DC - Back In Black (Official Video).mp3,1,ROCK,0
-8,/tracks/ROCK/AC_DC/ACDC - Thunderstruck.mp3,3,ROCK,0
-9,/tracks/ROCK/AC_DC/AC-DC - Highway to Hell (Official Video).mp3,1,ROCK,0
-10,/tracks/ROCK/Imagine_Dragons/Imagine Dragons - Believer (Official Music Video).mp3,3,ROCK,0
-11,/tracks/ROCK/Imagine_Dragons/Imagine Dragons - Demons (Official Music Video).mp3,4,ROCK,0
-12,/tracks/ROCK/Imagine_Dragons/Imagine Dragons - Thunder.mp3,3,ROCK,0
-13,/tracks/ROCK/Jenny_Lewis/Jenny Lewis - Red Bull & Hennessy (Official Audio).mp3,1,ROCK,0
-14,/tracks/ROCK/Jenny_Lewis/Jenny Lewis - Just One Of The Guys [Official Music Video].mp3,0,ROCK,0
-15,/tracks/ROCK/Jenny_Lewis/Jenny Lewis - She's Not Me [Official Music Video].mp3,0,ROCK,0
-16,/tracks/ROCK/Vampire_Weekend/Vampire Weekend - Diane Young.mp3,2,ROCK,0
-17,/tracks/ROCK/Vampire_Weekend/Vampire Weekend - Step (Official Lyrics Video).mp3,3,ROCK,0
-18,/tracks/ROCK/Vampire_Weekend/Vampire Weekend - Ya Hey (Official Lyrics Video).mp3,3,ROCK,0
-19,/tracks/ROCK/Johnny_Marr/Johnny Marr - Hi Hello - Official Music Video [HD].mp3,1,ROCK,0
-20,/tracks/ROCK/Johnny_Marr/How Soon Is Now - Johnny Marr Live At The Crazy Face Factory.mp3,0,ROCK,0
-21,/tracks/ROCK/Johnny_Marr/Johnny Marr - Easy Money [Official Music Video].mp3,1,ROCK,0
-22,/tracks/ROCK/David_Bowie/David Bowie - Lazarus (Video).mp3,1,ROCK,0
-23,/tracks/ROCK/David_Bowie/David Bowie - Let's Dance (Official Video).mp3,0,ROCK,0
-24,/tracks/ROCK/David_Bowie/David Bowie – Space Oddity (Official Video).mp3,0,ROCK,0
-25,/tracks/ROCK/Foo_Fighters/Foo Fighters - The Pretender.mp3,2,ROCK,0
-26,/tracks/ROCK/Foo_Fighters/Foo Fighters - Everlong (Official HD Video).mp3,1,ROCK,0
-27,/tracks/ROCK/Foo_Fighters/Foo Fighters - Best Of You (Official Music Video).mp3,1,ROCK,0
-28,/tracks/ROCK/Kurt_Vile/Kurt Vile - One Trick Ponies.mp3,1,ROCK,0
-29,/tracks/ROCK/Kurt_Vile/Kurt Vile - Never Run Away.mp3,1,ROCK,0
-30,/tracks/ROCK/Kurt_Vile/Kurt Vile - Loading Zones.mp3,1,ROCK,0
-31,/tracks/ROCK/Jack_White/Jack White - I'm Shakin' (Official Video).mp3,0,ROCK,0
-32,/tracks/ROCK/Jack_White/Jack White - Sixteen Saltines (Official Video).mp3,2,ROCK,0
-33,/tracks/ROCK/Jack_White/Jack White - Freedom At 21 (Official Video).mp3,0,ROCK,0
-34,/tracks/ROCK/King_Gizzard/King Gizzard & The Lizard Wizard - Rattlesnake (Official Video).mp3,3,ROCK,0
-35,/tracks/ROCK/King_Gizzard/King Gizzard & The Lizard Wizard - Gila Monster.mp3,1,ROCK,0
-36,/tracks/ROCK/King_Gizzard/King Gizzard & The Lizard Wizard - O.N.E. (Official Video).mp3,2,ROCK,0
-37,/tracks/ROCK/Jeff_Buckley/Jeff Buckley - Grace (Official Video).mp3,0,ROCK,0
-38,/tracks/ROCK/Jeff_Buckley/Jeff Buckley - Last Goodbye (Edit).mp3,1,ROCK,0
-39,/tracks/ROCK/Jeff_Buckley/Jeff Buckley - Hallelujah (Official Video).mp3,4,ROCK,0
-40,/tracks/ROCK/Gorillaz/On Melancholy Hill.mp3,1,ROCK,0
-41,/tracks/ROCK/Gorillaz/DARE.mp3,1,ROCK,0
-42,/tracks/ROCK/Gorillaz/Feel Good Inc..mp3,1,ROCK,0
-43,/tracks/ROCK/Fiona_Apple/Fiona Apple - Fast As You Can (Official HD Video).mp3,3,ROCK,0
-44,/tracks/ROCK/Fiona_Apple/Fiona Apple - Criminal (Official HD Video).mp3,1,ROCK,0
-45,/tracks/ROCK/Fiona_Apple/Fiona Apple - Across the Universe (Official HD Video).mp3,0,ROCK,0
-46,/tracks/ROCK/The_Rolling_Stones/The Rolling Stones - Sympathy For The Devil (Official Lyric Video).mp3,0,ROCK,0
-47,/tracks/ROCK/The_Rolling_Stones/The Rolling Stones - (I Can't Get No) Satisfaction (Official Lyric Video).mp3,0,ROCK,0
-48,"/tracks/ROCK/The_Rolling_Stones/The Rolling Stones - Paint It, Black (Official Lyric Video).mp3",0,ROCK,0
-49,/tracks/ROCK/Elton_John/Elton John - Sacrifice.mp3,3,ROCK,0
-50,/tracks/ROCK/Elton_John/Elton John - I'm Still Standing.mp3,1,ROCK,0
-51,"/tracks/ROCK/Elton_John/Elton John, Dua Lipa - Cold Heart (PNAU Remix) (Official Video).mp3",4,ROCK,0
-52,/tracks/ROCK/Arctic_Monkeys/Arctic Monkeys - Do I Wanna Know_ (Official Video).mp3,3,ROCK,0
-53,/tracks/ROCK/Arctic_Monkeys/Why'd You Only Call Me When You're High_.mp3,1,ROCK,0
-54,/tracks/ROCK/Arctic_Monkeys/I Wanna Be Yours.mp3,3,ROCK,2
-55,/tracks/ROCK/Dave_Grohl/Dave Grohl - Play (Official Video).mp3,3,ROCK,0
-56,"/tracks/ROCK/Dave_Grohl/Dave Grohl- Smells Like Teen Spirit, Dave drumming live, Nirvana recording @the Ford LA Oct 13, 2021.mp3",1,ROCK,0
-57,/tracks/ROCK/Dave_Grohl/Foo Fighters' Dave Grohl vs Animal - The Muppets.mp3,0,ROCK,0
-58,/tracks/ROCK/Alt-J/alt-J (∆) Breezeblocks.mp3,3,ROCK,0
-59,/tracks/ROCK/Alt-J/Alt-J (∆) - Matilda.mp3,4,ROCK,0
-60,/tracks/ROCK/Alt-J/alt-J (∆) - Fitzpleasure (Official Music Video).mp3,0,ROCK,0
-61,/tracks/ROCK/The_Strokes/The Strokes - Last Nite (Official HD Video).mp3,1,ROCK,0
-62,/tracks/ROCK/The_Strokes/The Strokes - Someday (Official HD Video).mp3,1,ROCK,0
-63,/tracks/ROCK/The_Strokes/The Strokes - Reptilia (Official HD Video).mp3,1,ROCK,0
-64,/tracks/ROCK/Queen/Queen - Don't Stop Me Now (Official Video).mp3,2,ROCK,0
-65,/tracks/ROCK/Queen/Queen - Another One Bites the Dust (Official Video).mp3,4,ROCK,0
-66,/tracks/ROCK/Queen/Queen - We Will Rock You (Official Video).mp3,4,ROCK,0
-67,/tracks/ELECTRONIC/Disclosure/Disclosure feat. London Grammar - Help Me Lose My Mind (lyrics) Music Video.mp3,3,ELECTRONIC,5
-68,/tracks/ELECTRONIC/Disclosure/Disclosure - You & Me (Flume Remix) [Official Video].mp3,2,ELECTRONIC,2
-69,/tracks/ELECTRONIC/Disclosure/Disclosure - Magnets ft. Lorde.mp3,1,ELECTRONIC,2
-70,/tracks/ELECTRONIC/Disclosure/Disclosure - Latch ft. Sam Smith.mp3,1,ELECTRONIC,2
-71,/tracks/ELECTRONIC/Chris_Cornell/Chris Cornell - Patience (Official Video).mp3,0,ELECTRONIC,2
-72,/tracks/ELECTRONIC/Chris_Cornell/Chris Cornell - Nearly Forgot My Broken Heart (Lyric Video).mp3,2,ELECTRONIC,2
-73,/tracks/ELECTRONIC/Chris_Cornell/Chris Cornell - Part Of Me ft. Timbaland.mp3,4,ELECTRONIC,2
-74,/tracks/ELECTRONIC/Steve_Aoki/Steve Aoki - Boneless (Audio).mp3,0,ELECTRONIC,2
-75,/tracks/ELECTRONIC/Steve_Aoki/Steve Aoki & Laidback Luke ft. Lil Jon - Turbulence.mp3,2,ELECTRONIC,2
-76,"/tracks/ELECTRONIC/Steve_Aoki/Dimitri Vegas & Like Mike, Steve Aoki vs Ummet Ozcan - Melody.mp3",0,ELECTRONIC,2
-77,/tracks/ELECTRONIC/The_Blaze/The Blaze - EYES (Live Performance filmed by Blogothèque).mp3,0,ELECTRONIC,2
-78,/tracks/ELECTRONIC/The_Blaze/The Blaze - Territory (HQ).mp3,4,ELECTRONIC,2
-79,/tracks/ELECTRONIC/The_Blaze/The Blaze - SHE (Audio).mp3,4,ELECTRONIC,0
-80,/tracks/ELECTRONIC/David_Guetta/Crank It Up (feat. Akon).mp3,2,ELECTRONIC,0
-81,/tracks/ELECTRONIC/David_Guetta/David Guetta - Without You ft. Usher (Lyric video).mp3,0,ELECTRONIC,0
-82,/tracks/ELECTRONIC/David_Guetta/David Guetta & Showtek - Bad ft.Vassy (Lyrics Video).mp3,2,ELECTRONIC,0
-83,/tracks/ELECTRONIC/David_Guetta/David Guetta Feat. Akon - Sexy Chick (Official Video).mp3,3,ELECTRONIC,0
-84,/tracks/ELECTRONIC/David_Guetta/David Guetta - Where Them Girls At (Audio).mp3,2,ELECTRONIC,0
-85,/tracks/ELECTRONIC/The_Weeknd/The Weeknd - In The Night (Official Audio).mp3,2,ELECTRONIC,0
-86,/tracks/ELECTRONIC/The_Weeknd/Gesaffelstein & The Weeknd - Lost in the Fire (Official Video).mp3,1,ELECTRONIC,0
-87,/tracks/ELECTRONIC/The_Weeknd/The Weeknd - After Hours (Audio).mp3,2,ELECTRONIC,0
-88,"/tracks/ELECTRONIC/Alesso/Hailee Steinfeld, Alesso - Let Me Go ft. Florida Georgia Line, WATT (Official Video).mp3",1,ELECTRONIC,0
-89,/tracks/ELECTRONIC/Alesso/Calvin Harris - Under Control (Audio).mp3,3,ELECTRONIC,0
-90,"/tracks/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (Lyrics) we could be.mp3",2,ELECTRONIC,14
-91,/tracks/ELECTRONIC/Avicii/Avicii - Levels.mp3,4,ELECTRONIC,0
-92,/tracks/ELECTRONIC/Avicii/I could be the one [Nicktim] (lyrics) - Avicii ft. Nicky Romero.mp3,2,ELECTRONIC,0
-93,/tracks/ELECTRONIC/Avicii/Avicii - Lonely Together “Audio” ft. Rita Ora.mp3,0,ELECTRONIC,0
-94,"/tracks/ELECTRONIC/Meduza/MEDUZA, Becky Hill, Goodboys - Lose Control (Lyric Video).mp3",0,ELECTRONIC,0
-95,"/tracks/ELECTRONIC/Meduza/MEDUZA, James Carter - Bad Memories (Lyric Video) ft. Elley Duhé, FAST BOY.mp3",2,ELECTRONIC,0
-96,"/tracks/ELECTRONIC/Meduza/MEDUZA, Goodboys - Piece Of Your Heart (Visualizer).mp3",3,ELECTRONIC,0
-97,/tracks/ELECTRONIC/CamelPhat/CAMELPHAT & RHODES - Home.mp3,3,ELECTRONIC,0
-98,/tracks/ELECTRONIC/CamelPhat/Anyma & CamelPhat - The Sign.mp3,0,ELECTRONIC,0
-99,/tracks/ELECTRONIC/CamelPhat/Camelphat & Elderbrook ‘Cola’.mp3,2,ELECTRONIC,0
-100,/tracks/ELECTRONIC/Kygo/Kygo - Firestone ft. Conrad Sewell (Official Audio).mp3,4,ELECTRONIC,0
-101,/tracks/ELECTRONIC/Kygo/Kygo - Raging ft. Kodaline (Official Lyric Video).mp3,0,ELECTRONIC,0
-102,/tracks/ELECTRONIC/Kygo/Kygo - Stole The Show (Lyrics) feat. Parson James.mp3,2,ELECTRONIC,0
-103,/tracks/ELECTRONIC/Swedish_House_Mafia/Swedish House Mafia - One (Your Name) (Official Video).mp3,0,ELECTRONIC,0
-104,"/tracks/ELECTRONIC/Swedish_House_Mafia/Swedish House Mafia, Sting - Redlight.mp3",4,ELECTRONIC,0
-105,/tracks/ELECTRONIC/Swedish_House_Mafia/Swedish House Mafia ft. John Martin - Don't You Worry Child (Official Video).mp3,2,ELECTRONIC,0
-106,/tracks/ELECTRONIC/Julian_Casablancas/Daft Punk - Infinity Repeating (2013 Demo) (feat. Julian Casablancas+The Voidz).mp3,4,ELECTRONIC,0
-107,/tracks/ELECTRONIC/Julian_Casablancas/Boombox (ft. Julian Casablancas).mp3,2,ELECTRONIC,0
-108,/tracks/ELECTRONIC/Julian_Casablancas/Daft Punk - Instant Crush (Video) ft. Julian Casablancas.mp3,0,ELECTRONIC,0
-109,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Outside [Audio] ft. Ellie Goulding.mp3,1,ELECTRONIC,0
-110,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris & Disciples - How Deep Is Your Love (Audio).mp3,2,ELECTRONIC,0
-111,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris feat. Rihanna - This Is What You Came For (Audio).mp3,2,ELECTRONIC,0
-112,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Feel So Close (Audio).mp3,2,ELECTRONIC,0
-113,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Summer (Audio).mp3,2,ELECTRONIC,0
-114,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Blame (Audio) ft. John Newman.mp3,3,ELECTRONIC,0
-115,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - My Way.mp3,0,ELECTRONIC,0
-116,/tracks/ELECTRONIC/Kevin_Parker/Discodeine - Aydin ft. Kevin Parker (Tame Impala).mp3,2,ELECTRONIC,0
-117,/tracks/ELECTRONIC/Kevin_Parker/Mark Ronson - Daffodils (Official Audio) ft. Kevin Parker.mp3,0,ELECTRONIC,0
-118,/tracks/ELECTRONIC/Kevin_Parker/Tame Impala - Currents Collectors Edition.mp3,0,ELECTRONIC,0
-119,/tracks/ELECTRONIC/Tame_Impala/Tame Impala - The Less I Know The Better (Audio).mp3,2,ELECTRONIC,0
-120,/tracks/ELECTRONIC/Tame_Impala/Tame Impala - Borderline (Official Audio).mp3,2,ELECTRONIC,0
-121,/tracks/ELECTRONIC/Tame_Impala/Tame Impala - Let It Happen (Official Audio).mp3,1,ELECTRONIC,0
-122,"/tracks/ELECTRONIC/Tame_Impala/ZHU, Tame Impala - My Life (Audio).mp3",3,ELECTRONIC,0
-123,/tracks/ELECTRONIC/Tiesto/Tiësto & KSHMR feat. Vassy - Secrets (Official Music Video).mp3,2,ELECTRONIC,0
-124,/tracks/ELECTRONIC/Tiesto/Tiësto - Adagio For Strings.mp3,0,ELECTRONIC,0
-125,/tracks/ELECTRONIC/Tiesto/Tiësto - The Business (Official Audio).mp3,0,ELECTRONIC,0
-126,/tracks/ELECTRONIC/Damon_Albarn/Damon Albarn - Heavy Seas Of Love (Official Video).mp3,4,ELECTRONIC,0
-127,/tracks/ELECTRONIC/Damon_Albarn/Damon Albarn - Everyday Robots (Official Video).mp3,4,ELECTRONIC,0
-128,/tracks/ELECTRONIC/Damon_Albarn/Damon Albarn - Lonely Press Play (Official Video).mp3,4,ELECTRONIC,0
-129,"/tracks/ELECTRONIC/Kaytranada/KAYTRANADA, Eight9FLY - Vex Oh (Audio) ft. GoldLink, Ari PenSmith.mp3",1,ELECTRONIC,0
-130,/tracks/ELECTRONIC/Kaytranada/KAYTRANADA - YOU'RE THE ONE (feat. SYD).mp3,0,ELECTRONIC,0
-131,/tracks/ELECTRONIC/Kaytranada/KAYTRANADA - 10% (Audio) ft. Kali Uchis.mp3,2,ELECTRONIC,0
-132,/tracks/ELECTRONIC/Fred_Again/Fred again.. & Baby Keem - leavemealone.mp3,1,ELECTRONIC,0
-133,/tracks/ELECTRONIC/Fred_Again/Fred again.. x Swedish House Mafia - Turn On The Lights again.. (feat. Future) [Visualiser].mp3,3,ELECTRONIC,0
-134,/tracks/ELECTRONIC/Fred_Again/Fred again.. feat. The Blessed Madonna - Marea (We’ve Lost Dancing) (Official Audio).mp3,0,ELECTRONIC,0
-135,/tracks/ELECTRONIC/Fred_Again/Fred again.. - Danielle (smile on my face) (Lyrics).mp3,3,ELECTRONIC,0
-136,/tracks/ELECTRONIC/Courtney_Barnett/Courtney Barnett - Avant Gardener.mp3,0,ELECTRONIC,0
-137,/tracks/ELECTRONIC/Courtney_Barnett/Depreston - Courtney Barnett.mp3,4,ELECTRONIC,0
-138,/tracks/ELECTRONIC/Courtney_Barnett/Pedestrian At Best - Courtney Barnett.mp3,2,ELECTRONIC,0
-139,/tracks/ELECTRONIC/Elderbrook/Elderbrook & Rudimental - Something About You [Official Audio].mp3,0,ELECTRONIC,0
-140,/tracks/ELECTRONIC/Elderbrook/Elderbrook - Numb.mp3,4,ELECTRONIC,0
-141,/tracks/ELECTRONIC/Elderbrook/Elderbrook - Talking.mp3,4,ELECTRONIC,0
-142,/tracks/ELECTRONIC/Robin_Schulz/Robin Schulz - Sugar (feat. Francesco Yates) (Official Lyric Video).mp3,0,ELECTRONIC,0
-143,/tracks/ELECTRONIC/Robin_Schulz/Lilly Wood & The Prick and Robin Schulz - Prayer In C (Robin Schulz Remix) (Official).mp3,0,ELECTRONIC,0
-144,/tracks/ELECTRONIC/Robin_Schulz/Mr. Probz - Waves (Robin Schulz Remix Radio Edit).mp3,4,ELECTRONIC,0
-145,/tracks/ELECTRONIC/ZHU/ZHU - Generationwhy (Audio).mp3,3,ELECTRONIC,0
-146,/tracks/ELECTRONIC/ZHU/ZHU - Cocaine Model.mp3,4,ELECTRONIC,0
-147,/tracks/ELECTRONIC/ZHU/ZHU - Faded.mp3,0,ELECTRONIC,0
-148,/tracks/ELECTRONIC/ZHU/ZHU - In The Morning.mp3,4,ELECTRONIC,0
-149,/tracks/ELECTRONIC/ZHU/ZHU x Skrillex x THEY. - Working For It (Audio).mp3,0,ELECTRONIC,0
-150,/tracks/ELECTRONIC/ZHU/ZHU - Good Life (Audio).mp3,4,ELECTRONIC,0
-151,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL ●● Innerbloom (Official Video).mp3,0,ELECTRONIC,0
-152,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL - Sundream.mp3,0,ELECTRONIC,0
-153,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL - Until The Sun Needs To Rise.mp3,2,ELECTRONIC,0
-154,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL ●● You Were Right [Official Video].mp3,2,ELECTRONIC,0
-155,/tracks/ELECTRONIC/Florence_Welch/Florence + The Machine - Spectrum (Say My Name) (Calvin Harris remix).mp3,2,ELECTRONIC,0
-156,/tracks/ELECTRONIC/Florence_Welch/Calvin Harris Feat. Florence Welch - Sweet Nothing (Long - Extended Version) - HQ.mp3,1,ELECTRONIC,0
-157,/tracks/ELECTRONIC/Florence_Welch/Florence + The Machine - Dog Days Are Over (2010 Version) (Official Music Video).mp3,4,ELECTRONIC,0
-158,/tracks/ELECTRONIC/Anyma/Anyma & Chris Avantgarde - Eternity.mp3,3,ELECTRONIC,0
-159,/tracks/ELECTRONIC/Anyma/Anyma & CamelPhat - The Sign.mp3,3,ELECTRONIC,0
-160,/tracks/ELECTRONIC/Anyma/Anyma & Chris Avantgarde - Consciousness.mp3,4,ELECTRONIC,0
-161,/tracks/ELECTRONIC/Kid_Cudi/Kid Cudi - Day 'N' Nite.mp3,4,ELECTRONIC,0
-162,/tracks/ELECTRONIC/Kid_Cudi/Pursuit of Happiness (Steve Aoki Remix) - Kid Cudi AUDIO.mp3,0,ELECTRONIC,0
-163,/tracks/ELECTRONIC/Kid_Cudi/David Guetta Feat. Kid Cudi - Memories (Official Video).mp3,2,ELECTRONIC,0
-164,/tracks/ELECTRONIC/Kevin_De_Vries/Kevin de Vries - Dance With Me.mp3,0,ELECTRONIC,0
-165,/tracks/ELECTRONIC/Kevin_De_Vries/Kevin de Vries & Mau P - Metro (Extended Mix).mp3,2,ELECTRONIC,0
-166,/tracks/ELECTRONIC/Kevin_De_Vries/Kevin de Vries - Dragon Of Eden  ( MNC ).mp3,4,ELECTRONIC,0
-167,/tracks/POP/Demi_Lovato/Cool for the Summer (Official Video) - Demi Lovato.mp3,1,POP,7
-168,/tracks/POP/Demi_Lovato/Solo - Clean Bandit.mp3,2,POP,4
-169,/tracks/POP/Demi_Lovato/Confident Official Video - Demi Lovato.mp3,0,POP,4
-170,/tracks/POP/Demi_Lovato/Heart Attack Official Video - Demi Lovato.mp3,2,POP,1
-171,/tracks/POP/Katy_Perry/Katy Perry - Last Friday Night (T.G.I.F) (Lyrics) - 7clouds Rock.mp3,2,POP,0
-172,/tracks/POP/Katy_Perry/Swish Swish - Katy Perry.mp3,2,POP,0
-173,/tracks/POP/Katy_Perry/California Gurls (Official Music Video) - Katy Perry.mp3,2,POP,0
-174,/tracks/POP/Katy_Perry/Firework (Official Music Video) - Katy Perry.mp3,2,POP,0
-175,/tracks/POP/Katy_Perry/Katy Perry - Dark Horse ft. Juicy J - KatyPerryVEVO.mp3,1,POP,0
-176,/tracks/POP/Katy_Perry/KATY PERRY - Hot N Cold _ Traducida al Español - loveyourself.mp3,2,POP,0
-177,/tracks/POP/Jim_James/Jim James - State Of The Art (A.E.I.O.U.).mp3,4,POP,0
-178,/tracks/POP/Jim_James/Jim James - Here In Spirit.mp3,0,POP,0
-179,/tracks/POP/Jim_James/Jim James - A New Life.mp3,1,POP,0
-180,/tracks/POP/Justin_Bieber/Justin Bieber - Company.mp3,0,POP,0
-181,/tracks/POP/Justin_Bieber/Justin Bieber - As Long As You Love Me ft. Big Sean (Official Audio).mp3,0,POP,0
-182,/tracks/POP/Justin_Bieber/Justin Bieber - Somebody To Love Remix ft. Usher (Official Music Video).mp3,1,POP,0
-183,/tracks/POP/Justin_Bieber/Justin Bieber - Sorry (Lyric Video).mp3,2,POP,0
-184,/tracks/POP/Justin_Bieber/Justin Bieber - Beauty And A Beat ft. Nicki Minaj (Official Audio).mp3,2,POP,0
-185,/tracks/POP/Justin_Bieber/Skrillex and Diplo - _Where Are Ü Now_ with Justin Bieber (Official Video).mp3,1,POP,0
-186,/tracks/POP/Justin_Bieber/DJ Snake ft. Justin Bieber - Let Me Love You [Lyric Video].mp3,0,POP,0
-187,/tracks/POP/Justin_Bieber/Major Lazer - Cold Water (feat. Justin Bieber & MØ) (Official Lyric Video).mp3,2,POP,0
-188,/tracks/POP/Coldplay/Coldplay - Hymn For The Weekend (Official Video).mp3,1,POP,0
-189,/tracks/POP/Coldplay/Coldplay - A Sky Full Of Stars (Official Video).mp3,0,POP,0
-190,/tracks/POP/Coldplay/Clocks.mp3,1,POP,0
-191,/tracks/POP/Dave_Matthews/Dave Matthews Band - Crash Into Me (Official Video).mp3,1,POP,0
-192,/tracks/POP/Dave_Matthews/Dave Matthews Band - You & Me (Official Video).mp3,1,POP,0
-193,/tracks/POP/Dave_Matthews/Dave Matthews Band - Crush (Official HD Video).mp3,1,POP,0
-194,/tracks/POP/Lady_Gaga/Lady Gaga - Judas (Audio) - GagaTube GagaTube.mp3,2,POP,0
-195,/tracks/POP/Lady_Gaga/Lady Gaga - Poker Face (Official Music Video).mp3,2,POP,0
-196,/tracks/POP/Lady_Gaga/Lady Gaga - Telephone ft. Beyoncé (Audio) - GagaTube GagaTube.mp3,2,POP,0
-197,/tracks/POP/Lady_Gaga/Lady Gaga - Alejandro - musiclover11.mp3,2,POP,0
-198,/tracks/POP/Lady_Gaga/Lady Gaga - You And I (Audio) - GagaTube GagaTube.mp3,2,POP,0
-199,/tracks/POP/Lady_Gaga/Lady Gaga - Bad Romance (Official Music Video).mp3,2,POP,0
-200,/tracks/POP/Lady_Gaga/Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis.mp3,2,POP,0
-201,/tracks/POP/Lady_Gaga/Lady Gaga - Paparazzi (Audio) - GagaTube GagaTube.mp3,2,POP,0
-202,/tracks/POP/Harry_Styles/Harry Styles - Golden (Official Video).mp3,2,POP,0
-203,/tracks/POP/Harry_Styles/Harry Styles - Adore You (Official Video).mp3,2,POP,0
-204,/tracks/POP/Harry_Styles/Harry Styles - Sign of the Times (Official Video).mp3,2,POP,0
-205,/tracks/POP/Charli_xcx/Von dutch - Charli XCX.mp3,2,POP,0
-206,/tracks/POP/Charli_xcx/Charli XCX - Boom Clap [traducida_sub español] - Sweet Paradise.mp3,0,POP,0
-207,/tracks/POP/Charli_xcx/Charli XCX - Speed Drive (From Barbie The Album) __ Sub español + Lyrics - ANDREW BUTRON.mp3,2,POP,0
-208,/tracks/POP/Jason_Isbell/Jason Isbell and the 400 Unit - Relatively Easy _ Live at the Bijou Theatre 2022.mp3,3,POP,0
-209,/tracks/POP/Jason_Isbell/Jason Isbell and the 400 Unit - Yvette _ Live at the Bijou Theatre 2022.mp3,4,POP,0
-210,/tracks/POP/Jason_Isbell/Jason Isbell and the 400 Unit - White Beretta (Official Music Video).mp3,3,POP,0
-211,/tracks/POP/Beck/Beck - Loser (Official Music Video).mp3,0,POP,0
-212,"/tracks/POP/Beck/Cage The Elephant, Beck - Night Running (Official Audio).mp3",2,POP,0
-213,/tracks/POP/Beck/Beck - E-Pro.mp3,0,POP,0
-214,/tracks/POP/Ed_Sheeran/Ed Sheeran - Thinking Out Loud (Official Music Video).mp3,0,POP,0
-215,/tracks/POP/Ed_Sheeran/Ed Sheeran - Perfect (Official Music Video).mp3,2,POP,0
-216,/tracks/POP/Ed_Sheeran/Ed Sheeran - Shape of You (Official Music Video).mp3,0,POP,0
-217,/tracks/POP/Lewis_Capaldi/Lewis Capaldi - Hold Me While You Wait (Interlude Session).mp3,0,POP,0
-218,/tracks/POP/Lewis_Capaldi/Lewis Capaldi - Someone You Loved.mp3,1,POP,0
-219,/tracks/POP/Lewis_Capaldi/Lewis Capaldi - Bruises (Official Audio).mp3,3,POP,0
-220,/tracks/POP/John_Mayer/John Mayer - Your Body Is a Wonderland (Official HD Video).mp3,1,POP,0
-221,/tracks/POP/John_Mayer/John Mayer - New Light (Premium Content!).mp3,0,POP,0
-222,/tracks/POP/John_Mayer/John Mayer - Who You Love (Official Video) ft. Katy Perry.mp3,3,POP,0
-223,/tracks/POP/Sia/David Guetta - Titanium ft. Sia (Official Video).mp3,2,POP,0
-224,/tracks/POP/Sia/Sia - Chandelier (Official Video).mp3,2,POP,0
-225,"/tracks/POP/Sia/LSD - Thunderclouds (Official Video) ft. Sia, Diplo, Labrinth.mp3",0,POP,0
-226,/tracks/POP/Billie_Eilish/Billie Eilish - when the party's over (Official Music Video).mp3,3,POP,0
-227,/tracks/POP/Billie_Eilish/Billie Eilish - bad guy (Official Music Video).mp3,3,POP,0
-228,/tracks/POP/Billie_Eilish/Billie Eilish - idontwannabeyouanymore (Official Vertical Video).mp3,0,POP,0
-229,/tracks/POP/Lana_Del_Rey/Lana Del Rey - Brooklyn Baby (Official Audio).mp3,0,POP,0
-230,/tracks/POP/Lana_Del_Rey/Lana Del Rey vs Cedric Gervais 'Summertime Sadness' Remix.mp3,1,POP,0
-231,/tracks/POP/Lana_Del_Rey/Lana Del Rey - Video Games.mp3,4,POP,0
-232,"/tracks/POP/Usher/Usher - Yeah! (Official Video) ft. Lil Jon, Ludacris.mp3",2,POP,0
-233,/tracks/POP/Usher/Usher - OMG ft. will.i.am.mp3,1,POP,0
-234,/tracks/POP/Usher/Usher - DJ Got Us Fallin' In Love (Lyrics) ft. Pitbull.mp3,2,POP,0
-235,/tracks/POP/H.E.R/KAYTRANADA - Intimidated (Audio) ft. H.E.R..mp3,2,POP,0
-236,/tracks/POP/H.E.R/H.E.R. - Damage (Official Video).mp3,0,POP,0
-237,/tracks/POP/H.E.R/H.E.R. - Could've Been (Audio) ft. Bryson Tiller.mp3,0,POP,0
-238,/tracks/POP/Lorde/Lorde - Team.mp3,0,POP,0
-239,/tracks/POP/Lorde/Ribs.mp3,3,POP,0
-240,/tracks/POP/Lorde/Lorde - Royals (US Version).mp3,4,POP,0
-241,/tracks/POP/Flo Rida/Flo Rida - Good Feeling (Audio).mp3,1,POP,0
-242,/tracks/POP/Flo Rida/Flo Rida feat. David Guetta - Club Can’t Handle Me _ Lyrics.mp3,2,POP,0
-243,/tracks/POP/Flo Rida/Flo Rida feat. Sia - Wild Ones _ Lyrics.mp3,2,POP,0
-244,/tracks/POP/Dua_Lipa/Dua Lipa - New Rules (Official Music Video).mp3,2,POP,0
-245,/tracks/POP/Dua_Lipa/Dua Lipa - Break My Heart (Official Video).mp3,2,POP,0
-246,/tracks/POP/Dua_Lipa/Dua Lipa - Don't Start Now (Official Music Video).mp3,2,POP,0
-247,/tracks/POP/Bruno_Mars/Bruno Mars - Locked Out Of Heaven (Official Music Video).mp3,2,POP,0
-248,/tracks/POP/Bruno_Mars/Bruno Mars - That’s What I Like [Official Music Video].mp3,2,POP,0
-249,/tracks/POP/Bruno_Mars/Bruno Mars - When I Was Your Man (Official Music Video).mp3,3,POP,0
-250,/tracks/POP/Years_And_Years/Olly Alexander - Desire (Gryffin Remix).mp3,2,POP,0
-251,/tracks/POP/Years_And_Years/Years & Years - King (Official Video).mp3,2,POP,0
-252,/tracks/POP/Years_And_Years/Years & Years - Shine (Official Video).mp3,2,POP,0
-253,/tracks/POP/Hozier/Hozier - Work Song (Official Video).mp3,3,POP,0
-254,/tracks/POP/Hozier/Hozier - Take Me To Church.mp3,0,POP,0
-255,/tracks/POP/Hozier/Hozier - Too Sweet (Official Lyric Video).mp3,2,POP,0
-256,/tracks/POP/Ariana_Grande/Ariana Grande - Dangerous Woman (Official Audio).mp3,0,POP,0
-257,/tracks/POP/Ariana_Grande/Side To Side.mp3,2,POP,25
-258,/tracks/POP/Ariana_Grande/Ariana Grande - Into You (Official Video).mp3,2,POP,0
-259,/tracks/POP/SZA/SZA - Kill Bill (Audio).mp3,0,POP,0
-260,/tracks/POP/SZA/SZA - Snooze (Audio).mp3,0,POP,0
-261,/tracks/POP/SZA/SZA - Good Days (Audio).mp3,0,POP,0
-262,/tracks/POP/Billie_Joe_Armstrong/That Thing You Do!.mp3,2,POP,0
-263,/tracks/POP/Billie_Joe_Armstrong/Police on My Back.mp3,2,POP,0
-264,/tracks/POP/Billie_Joe_Armstrong/Whole Wide World.mp3,2,POP,0
-265,/tracks/POP/BTS/BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV.mp3,2,POP,0
-266,/tracks/POP/BTS/BTS (방탄소년단) 'Dynamite' Official MV.mp3,2,POP,0
-267,/tracks/POP/BTS/BTS (방탄소년단) 'Butter' Official MV.mp3,0,POP,0
-268,/tracks/POP/Pitbull/Pitbull - International Love (Audio) ft. Chris Brown.mp3,1,POP,0
-269,/tracks/POP/Pitbull/Pitbull - Hey Baby (Drop It To The Floor) ft. T-Pain.mp3,1,POP,0
-270,"/tracks/POP/Pitbull/Pitbull, Ne-Yo - Time Of Our Lives (Audio).mp3",0,POP,0
-271,"/tracks/POP/Pitbull/Pitbull - Give Me Everything ft. Ne-Yo, Afrojack, Nayer.mp3",1,POP,0
-272,"/tracks/POP/Pitbull/DJ Felli Fel - Boomerang Feat. Akon, Pitbull & Jermaine Dupri [Official Video] HD.mp3",2,POP,0
-273,/tracks/POP/Pitbull/Pitbull - Back in Time (from _Men In Black III_) [Official Audio].mp3,2,POP,0
-274,/tracks/POP/James_Blake/James Blake - Lost Angel Nights (Audio).mp3,3,POP,0
-275,"/tracks/POP/James_Blake/James Blake, slowthai - Funeral (Official Video).mp3",3,POP,0
-276,/tracks/POP/James_Blake/James Blake - Barefoot In The Park feat. Rosalía (Official Video).mp3,3,POP,0
-277,/tracks/POP/Eddie_Vedder/Eddie Vedder - Sleeping By Myself.mp3,4,POP,0
-278,"/tracks/POP/Eddie_Vedder/Olivia Vedder, Eddie Vedder, Glen Hansard - My Father's Daughter (Official Video).mp3",3,POP,0
-279,/tracks/POP/Eddie_Vedder/Can't Keep (Music Video) - Ukulele Songs - Eddie Vedder.mp3,0,POP,0
-280,/tracks/POP/Feist/Feist - 1234.mp3,4,POP,0
-281,/tracks/POP/Feist/Feist - My Moon My Man (Closed Captioned).mp3,4,POP,0
-282,/tracks/POP/Feist/Feist - I Feel It All.mp3,4,POP,0
-283,/tracks/POP/Rihanna/Rihanna - We Found Love (Lyrics) ft. Calvin Harris.mp3,1,POP,0
-284,/tracks/POP/Rihanna/Rihanna - Only Girl (In The World).mp3,2,POP,0
-285,/tracks/POP/Rihanna/Rihanna - Diamonds (Lyrics).mp3,0,POP,0
-286,/tracks/POP/Maroon_5/Maroon 5 - Payphone ft. Wiz Khalifa (Explicit) (Official Music Video).mp3,1,POP,0
-287,/tracks/POP/Maroon_5/Maroon 5 - Animals.mp3,0,POP,0
-288,/tracks/POP/Maroon_5/Maroon 5 - Maps (Lyric Video).mp3,1,POP,0
-289,/tracks/POP/Donald_Fagen/I.G.Y..mp3,3,POP,0
-290,/tracks/POP/Donald_Fagen/The Nightfly.mp3,1,POP,0
-291,/tracks/POP/Donald_Fagen/New Frontier.mp3,1,POP,0
-292,/tracks/POP/Britney_Spears/Britney Spears - Criminal (Audio) - Britney Jean Spears.mp3,2,POP,0
-293,/tracks/POP/Britney_Spears/Britney Spears - Circus (Audio) - Britney Jean Spears.mp3,2,POP,0
-294,/tracks/POP/Britney_Spears/Britney Spears - Till The World Ends (Audio) - Britney Jean Spears.mp3,2,POP,0
-295,/tracks/POP/Britney_Spears/Toxic (Official HD Video) - Britney Spears.mp3,3,POP,0
-296,/tracks/POP/Britney_Spears/Baby One More Time - 7clouds Rock.mp3,0,POP,0
-297,/tracks/POP/Britney_Spears/Britney Spears - Gimme More (Official HD Video) - BritneySpearsVEVO.mp3,2,POP,0
-298,/tracks/POP/Britney_Spears/Oops!...I Did It Again - Britney Spears.mp3,2,POP,0
-299,/tracks/POP/Britney_Spears/Britney Spears - Womanizer (Director's Cut) (Official HD Video) - BritneySpearsVEVO.mp3,2,POP,0
-300,/tracks/POP/John_Legend/John Legend - Love Me Now (Official Video).mp3,0,POP,0
-301,/tracks/POP/John_Legend/John Legend - All of Me (Official Video).mp3,1,POP,0
-302,/tracks/POP/John_Legend/John Legend - Tonight (Best You Ever Had) (Official Video) ft. Ludacris.mp3,0,POP,0
-303,"/tracks/POP/Sam_Smith/Sam Smith, Normani - Dancing With A Stranger (Official Music Video).mp3",0,POP,0
-304,"/tracks/POP/Sam_Smith/Calvin Harris, Sam Smith - Promises (Official Lyric Video).mp3",0,POP,0
-305,/tracks/POP/Sam_Smith/Sam Smith - I'm Not The Only One (Lyrics).mp3,0,POP,0
-306,/tracks/POP/Kesha/Ke ha - Take It Off (Official Video).mp3,1,POP,0
-307,/tracks/POP/Kesha/Ke$ha - Die Young (Official Video).mp3,2,POP,0
-308,/tracks/POP/Kesha/Pitbull - Timber (Official Video) ft. Ke$ha.mp3,2,POP,0
-309,/tracks/POP/Kesha/Ke$ha - Blow (Official Video).mp3,1,POP,0
-310,/tracks/POP/Kesha/Ke ha - TiK ToK (Official HD Video).mp3,2,POP,0
-311,/tracks/POP/Norah_Jones/Norah Jones - Sunrise.mp3,3,POP,0
-312,/tracks/POP/Norah_Jones/Norah Jones - Don't Know Why.mp3,3,POP,0
-313,/tracks/POP/Norah_Jones/Norah Jones - Come Away With Me.mp3,4,POP,0
-314,/tracks/POP/Karen_O/Karen O - Rapt (Official Video).mp3,3,POP,0
-315,/tracks/POP/Karen_O/Karen O - I Shall Rise (Official Video).mp3,3,POP,0
-316,/tracks/POP/Karen_O/Karen O - Strange Love (from _Frankenweenie_) - Karen O.mp3,4,POP,0
-317,/tracks/POP/Black_Eyed_Peas/Rock That Body.mp3,2,POP,0
-318,/tracks/POP/Black_Eyed_Peas/Meet Me Halfway.mp3,0,POP,0
-319,/tracks/POP/Black_Eyed_Peas/The Black Eyed Peas - The Time (Dirty Bit) (Audio).mp3,0,POP,0
-320,/tracks/POP/Black_Eyed_Peas/The Black Eyed Peas - Just Can't Get Enough (Official Music Video).mp3,3,POP,0
-321,/tracks/POP/Black_Eyed_Peas/I Gotta Feeling.mp3,0,POP,0
-322,/tracks/POP/Adele/Adele - Rolling in the Deep (Official Music Video).mp3,4,POP,0
-323,/tracks/POP/Adele/Adele - Someone Like You (Official Music Video).mp3,3,POP,0
-324,/tracks/POP/Adele/Adele - Easy On Me (Official Video).mp3,3,POP,0
-325,/tracks/POP/Taylor_Swift/Taylor Swift - Blank Space (Taylor's Version) (Lyric Video).mp3,1,POP,0
-326,/tracks/POP/Taylor_Swift/Taylor Swift - Bad Blood (Taylor's Version) (Lyric Video).mp3,3,POP,0
-327,/tracks/POP/Taylor_Swift/Taylor Swift - Style (Taylor's Version) (Lyric Video).mp3,2,POP,0
-328,/tracks/POP/Miley_Cyrus/Doctor (Work It Out) - Pharrell Williams & Miley Cyrus.mp3,2,POP,0
-329,/tracks/POP/Miley_Cyrus/Flowers - Miley Cyrus.mp3,0,POP,0
-330,/tracks/POP/Miley_Cyrus/Mark Ronson - Nothing Breaks Like a Heart (Lyrics) Ft. Miley Cyrus - Lazy Fox.mp3,0,POP,0
-331,/tracks/POP/Miley_Cyrus/We Can't Stop (Official Video) - Miley Cyrus.mp3,0,POP,0
-332,/tracks/POP/Miley_Cyrus/Miley Cyrus - Wrecking Ball (Official Video) - MileyCyrusVEVO.mp3,0,POP,0
-333,/tracks/POP/Miley_Cyrus/Miley Cyrus - Party In The U.S.A. (Official Video) - HollywoodRecordsVEVO.mp3,2,POP,0
-334,/tracks/POP/Miley_Cyrus/Malibu (Official Video) - Miley Cyrus.mp3,0,POP,0
-335,/tracks/RAP/DaBaby/DaBaby – NASTY Ft. MEGAN THEE STALLION & ASHANTI [AUDIO}.mp3,0,RAP,9
-336,/tracks/RAP/DaBaby/DaBaby – ROCKSTAR FT RODDY RICCH [Audio].mp3,1,RAP,5
-337,/tracks/RAP/DaBaby/DaBaby - Practice (Official Audio).mp3,1,RAP,3
-338,/tracks/RAP/Travis_Scott/Travis Scott - goosebumps ft. Kendrick Lamar.mp3,4,RAP,2
-339,/tracks/RAP/Travis_Scott/Travis Scott - SICKO MODE (Audio).mp3,1,RAP,2
-340,/tracks/RAP/Travis_Scott/Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3,0,RAP,2
-341,/tracks/RAP/J_Cole/J. Cole - H.Y.B. feat. Bas & Central Cee (Official Audio).mp3,4,RAP,2
-342,/tracks/RAP/J_Cole/J. Cole - 7 Minute Drill (Official Audio).mp3,0,RAP,0
-343,/tracks/RAP/J_Cole/J. Cole - Fever (Official Audio).mp3,3,RAP,0
-344,/tracks/RAP/Eminem/Eminem - Without Me (Official Music Video).mp3,4,RAP,0
-345,/tracks/RAP/Eminem/Eminem - Not Afraid (Lyrics).mp3,4,RAP,0
-346,/tracks/RAP/Eminem/Eminem - The Real Slim Shady (Official Video - Clean Version).mp3,1,RAP,0
-347,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Savage (Lyrics).mp3,0,RAP,0
-348,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Thot Sh_t _ Lyrics.mp3,4,RAP,0
-349,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Body [Official Dance Video].mp3,0,RAP,0
-350,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Captain Hook [Official Video].mp3,4,RAP,0
-351,"/tracks/RAP/6ix9ine/6ix9ine - FEFE ft. Nicki Minaj, Murda Beatz.mp3",4,RAP,0
-352,/tracks/RAP/6ix9ine/TROLLZ - 6ix9ine & Nicki Minaj  (Official Music Video).mp3,1,RAP,0
-353,/tracks/RAP/6ix9ine/6IX9INE- GOOBA (Official Music Video).mp3,0,RAP,0
-354,/tracks/RAP/Nicki_Minaj/Nicki Minaj - The Night Is Still Young (Official Audio).mp3,0,RAP,0
-355,/tracks/RAP/Nicki_Minaj/Nicki Minaj - Big Foot (Official Audio).mp3,4,RAP,0
-356,/tracks/RAP/Nicki_Minaj/Starships - Nicki Minaj (Lyrics) 🎵.mp3,0,RAP,0
-357,/tracks/RAP/Nicki_Minaj/Nicki Minaj - Love Me Enough (feat. Monica & Keyshia Cole) [Official Audio].mp3,1,RAP,0
-358,/tracks/RAP/Nicki_Minaj/Nicki Minaj - Anaconda.mp3,4,RAP,0
-359,/tracks/RAP/Nicki_Minaj/Super Bass.mp3,4,RAP,0
-360,/tracks/RAP/Childish_Gambino/Childish Gambino - This Is America (Official Video).mp3,1,RAP,0
-361,/tracks/RAP/Childish_Gambino/Les.mp3,1,RAP,39
-362,/tracks/RAP/Childish_Gambino/Heartbeat.mp3,1,RAP,0
-363,/tracks/RAP/50_Cent/50 Cent  -  Candy Shop (Explicit).mp3,4,RAP,0
-364,/tracks/RAP/50_Cent/50 Cent - In Da Club (Official Music Video).mp3,1,RAP,0
-365,/tracks/RAP/50_Cent/50 cent - 21 questions; sub español.mp3,1,RAP,0
-366,/tracks/RAP/Ice_Spice/Nicki Minaj & Ice Spice – Barbie World (with Aqua) [Official Music Video].mp3,0,RAP,0
-367,/tracks/RAP/Ice_Spice/Ice Spice & Nicki Minaj - Princess Diana (Official Music Video).mp3,0,RAP,0
-368,/tracks/RAP/Ice_Spice/Ice Spice - Think U The Shit (Fart) (Official Video).mp3,1,RAP,0
-369,/tracks/RAP/Ice_Spice/Ice Spice - No Clarity (Official Music Video).mp3,4,RAP,0
-370,/tracks/RAP/Ice_Spice/Ice Spice - in ha mood (Official Video).mp3,4,RAP,0
-371,/tracks/RAP/Ice_Spice/Ice Spice - Deli.mp3,4,RAP,0
-372,/tracks/RAP/Iggy_Azalea/Team - Iggy Azalea.mp3,4,RAP,0
-373,/tracks/RAP/Iggy_Azalea/Kream - Iggy Azalea.mp3,4,RAP,0
-374,/tracks/RAP/Iggy_Azalea/Iggy Azalea - Black Widow (feat. Rita Ora) - Iggy Azalea.mp3,1,RAP,0
-375,/tracks/RAP/Iggy_Azalea/Work - Iggy Azalea.mp3,4,RAP,0
-376,/tracks/RAP/Iggy_Azalea/Fancy PG Slated - Iggy Azalea.mp3,0,RAP,0
-377,/tracks/RAP/Iggy_Azalea/Iggy Azalea - Money Come (Remix) feat. Big Boss Vette & Ivorian Doll [Lyric Video] - Iggy Azalea.mp3,0,RAP,0
-378,/tracks/RAP/Iggy_Azalea/Started - Iggy Azalea.mp3,4,RAP,0
-379,/tracks/RAP/Tyga/Tyga - Hookah ft. Young Thug.mp3,2,RAP,0
-380,/tracks/RAP/Tyga/Tyga - SWISH (Official Music Video).mp3,1,RAP,0
-381,/tracks/RAP/Tyga/Tyga - Wait For A Minute (Official Music Video) (Explicit) ft. Justin Bieber.mp3,2,RAP,0
-382,/tracks/RAP/Tyga/Tyga - Taste (Official Video) ft. Offset.mp3,4,RAP,0
-383,"/tracks/RAP/Metro_Boomin/Metro Boomin, The Weeknd, 21 Savage - Creepin' (Visualizer).mp3",4,RAP,0
-384,"/tracks/RAP/Metro_Boomin/Future, Metro Boomin, The Weeknd - We Still Don't Trust You (Official Music Video).mp3",1,RAP,0
-385,"/tracks/RAP/Metro_Boomin/Metro Boomin, Don Toliver, Future - Too Many Nights (Official Video).mp3",4,RAP,0
-386,"/tracks/RAP/Metro_Boomin/Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio).mp3",4,RAP,0
-387,/tracks/RAP/Doja_Cat/Doja Cat - Paint The Town Red (Lyrics).mp3,4,RAP,0
-388,/tracks/RAP/Doja_Cat/Doja Cat - Woman (Visualizer).mp3,4,RAP,0
-389,"/tracks/RAP/Doja_Cat/Doja Cat, Tyga - Juicy (Official Video).mp3",4,RAP,0
-390,/tracks/RAP/Doja_Cat/Doja Cat - Say So (Official Video).mp3,0,RAP,0
-391,/tracks/RAP/Doja_Cat/Doja Cat - Kiss Me More (Official Video) ft. SZA.mp3,4,RAP,0
-392,/tracks/RAP/Doja_Cat/Doja Cat - Need to Know (Official Video).mp3,0,RAP,0
-393,/tracks/RAP/Doja_Cat/Doja Cat - Streets (Audio).mp3,4,RAP,0
-394,/tracks/RAP/Kendrick_Lamar/Kendrick Lamar - HUMBLE..mp3,4,RAP,0
-395,"/tracks/RAP/Kendrick_Lamar/Kendrick Lamar, SZA - All The Stars.mp3",4,RAP,0
-396,/tracks/RAP/Kendrick_Lamar/Kendrick Lamar - Money Trees (Feat. Jay Rock).mp3,4,RAP,19
-397,/tracks/RAP/Kendrick_Lamar/Pray For Me.mp3,4,RAP,0
-398,/tracks/RAP/Kendrick_Lamar/Kendrick Lamar - Swimming Pools (Drank).mp3,3,RAP,0
-399,/tracks/RAP/Frank_Ocean/Frank Ocean - In My Room (Lyric Video).mp3,1,RAP,0
-400,/tracks/RAP/Frank_Ocean/Frank Ocean - Nights.mp3,1,RAP,4
-401,/tracks/RAP/Frank_Ocean/Frank Ocean - Pink + White.mp3,1,RAP,0
-402,/tracks/RAP/Cardi_B/Cardi B - WAP feat. Megan Thee Stallion [Official Audio].mp3,1,RAP,0
-403,"/tracks/RAP/Cardi_B/Cardi B, Bad Bunny & J Balvin - I Like It [Official Music Video].mp3",4,RAP,0
-404,/tracks/RAP/Cardi_B/Cardi B - Bodak Yellow [OFFICIAL MUSIC VIDEO].mp3,4,RAP,0
-405,/tracks/RAP/Pop_Smoke/POP SMOKE - WAR FT. LIL TJAY (OFFICIAL VIDEO).mp3,4,RAP,0
-406,/tracks/RAP/Pop_Smoke/POP SMOKE - DIOR (OFFICIAL VIDEO).mp3,0,RAP,0
-407,"/tracks/RAP/Pop_Smoke/Pop Smoke - For The Night (Audio) ft. Lil Baby, DaBaby.mp3",4,RAP,0
-408,/tracks/RAP/Drake/Drake - Massive.mp3,4,RAP,0
-409,/tracks/RAP/Drake/drake- one dance.mp3,1,RAP,0
-410,/tracks/RAP/Drake/Drake - Hotline Bling.mp3,1,RAP,0
-411,/tracks/RAP/Drake/God's Plan.mp3,1,RAP,0
-412,/tracks/RAP/Drake/Drake - Started From The Bottom.mp3,2,RAP,0
-413,/tracks/RAP/Drake/Passionfruit.mp3,2,RAP,0
-414,/tracks/RAP/Chance_the_Rapper/Chance the Rapper - Same Drugs (Official Video).mp3,1,RAP,0
-415,/tracks/RAP/Chance_the_Rapper/Chance The Rapper ft. Saba - Angels.mp3,1,RAP,0
-416,/tracks/RAP/Chance_the_Rapper/Chance the Rapper ft. 2 Chainz & Lil Wayne - No Problem (Official Video).mp3,4,RAP,0
-417,/tracks/RAP/Lil_Wayne/Lil Wayne - Lollipop (Official Music Video) ft. Static.mp3,1,RAP,0
-418,/tracks/RAP/Lil_Wayne/Lil Wayne - Mirror ft. Bruno Mars (Official Music Video).mp3,1,RAP,0
-419,"/tracks/RAP/Lil_Wayne/Lil Wayne - Love Me (Explicit Version-Closed Captioned) ft. Drake, Future.mp3",4,RAP,0
-420,/tracks/RAP/Future/Future - Life Is Good (Official Music Video) ft. Drake.mp3,3,RAP,0
-421,"/tracks/RAP/Future/Future, Metro Boomin, Travis Scott, Playboi Carti - Type Shit (Official Video).mp3",0,RAP,0
-422,"/tracks/RAP/Future/Future, Metro Boomin - Amazing (Interlude) (Official Audio).mp3",1,RAP,0
+ID,shortedPath,subgenres,Genre,TimesPlayed_Global,liked
+1,/tracks/ROCK/Metallica/Metallica_ Nothing Else Matters (Official Music Video).mp3,2,ROCK,32,0
+2,/tracks/ROCK/Metallica/Metallica_ Enter Sandman (Official Music Video).mp3,1,ROCK,15,0
+3,/tracks/ROCK/Metallica/Metallica_ The Unforgiven (Official Music Video).mp3,1,ROCK,6,0
+4,/tracks/ROCK/Jamie_xx/Jamie xx - Gosh.mp3,4,ROCK,5,0
+5,/tracks/ROCK/Jamie_xx/Jamie xx - KILL DEM (Official Audio).mp3,3,ROCK,3,0
+6,/tracks/ROCK/Jamie_xx/Jamie xx - It's So Good.mp3,2,ROCK,3,0
+7,/tracks/ROCK/AC_DC/AC-DC - Back In Black (Official Video).mp3,1,ROCK,2,0
+8,/tracks/ROCK/AC_DC/ACDC - Thunderstruck.mp3,3,ROCK,2,0
+9,/tracks/ROCK/AC_DC/AC-DC - Highway to Hell (Official Video).mp3,1,ROCK,2,0
+10,/tracks/ROCK/Imagine_Dragons/Imagine Dragons - Believer (Official Music Video).mp3,3,ROCK,5,0
+11,/tracks/ROCK/Imagine_Dragons/Imagine Dragons - Demons (Official Music Video).mp3,4,ROCK,2,0
+12,/tracks/ROCK/Imagine_Dragons/Imagine Dragons - Thunder.mp3,3,ROCK,2,0
+13,/tracks/ROCK/Jenny_Lewis/Jenny Lewis - Red Bull & Hennessy (Official Audio).mp3,1,ROCK,1,0
+14,/tracks/ROCK/Jenny_Lewis/Jenny Lewis - Just One Of The Guys [Official Music Video].mp3,0,ROCK,0,0
+15,/tracks/ROCK/Jenny_Lewis/Jenny Lewis - She's Not Me [Official Music Video].mp3,0,ROCK,0,0
+16,/tracks/ROCK/Vampire_Weekend/Vampire Weekend - Diane Young.mp3,2,ROCK,0,0
+17,/tracks/ROCK/Vampire_Weekend/Vampire Weekend - Step (Official Lyrics Video).mp3,3,ROCK,0,0
+18,/tracks/ROCK/Vampire_Weekend/Vampire Weekend - Ya Hey (Official Lyrics Video).mp3,3,ROCK,0,0
+19,/tracks/ROCK/Johnny_Marr/Johnny Marr - Hi Hello - Official Music Video [HD].mp3,1,ROCK,0,0
+20,/tracks/ROCK/Johnny_Marr/How Soon Is Now - Johnny Marr Live At The Crazy Face Factory.mp3,0,ROCK,0,0
+21,/tracks/ROCK/Johnny_Marr/Johnny Marr - Easy Money [Official Music Video].mp3,1,ROCK,0,0
+22,/tracks/ROCK/David_Bowie/David Bowie - Lazarus (Video).mp3,1,ROCK,0,0
+23,/tracks/ROCK/David_Bowie/David Bowie - Let's Dance (Official Video).mp3,0,ROCK,0,0
+24,/tracks/ROCK/David_Bowie/David Bowie – Space Oddity (Official Video).mp3,0,ROCK,0,0
+25,/tracks/ROCK/Foo_Fighters/Foo Fighters - The Pretender.mp3,2,ROCK,0,0
+26,/tracks/ROCK/Foo_Fighters/Foo Fighters - Everlong (Official HD Video).mp3,1,ROCK,0,0
+27,/tracks/ROCK/Foo_Fighters/Foo Fighters - Best Of You (Official Music Video).mp3,1,ROCK,0,0
+28,/tracks/ROCK/Kurt_Vile/Kurt Vile - One Trick Ponies.mp3,1,ROCK,0,0
+29,/tracks/ROCK/Kurt_Vile/Kurt Vile - Never Run Away.mp3,1,ROCK,0,0
+30,/tracks/ROCK/Kurt_Vile/Kurt Vile - Loading Zones.mp3,1,ROCK,0,0
+31,/tracks/ROCK/Jack_White/Jack White - I'm Shakin' (Official Video).mp3,0,ROCK,0,0
+32,/tracks/ROCK/Jack_White/Jack White - Sixteen Saltines (Official Video).mp3,2,ROCK,0,0
+33,/tracks/ROCK/Jack_White/Jack White - Freedom At 21 (Official Video).mp3,0,ROCK,0,0
+34,/tracks/ROCK/King_Gizzard/King Gizzard & The Lizard Wizard - Rattlesnake (Official Video).mp3,3,ROCK,0,0
+35,/tracks/ROCK/King_Gizzard/King Gizzard & The Lizard Wizard - Gila Monster.mp3,1,ROCK,0,0
+36,/tracks/ROCK/King_Gizzard/King Gizzard & The Lizard Wizard - O.N.E. (Official Video).mp3,2,ROCK,0,0
+37,/tracks/ROCK/Jeff_Buckley/Jeff Buckley - Grace (Official Video).mp3,0,ROCK,0,0
+38,/tracks/ROCK/Jeff_Buckley/Jeff Buckley - Last Goodbye (Edit).mp3,1,ROCK,0,0
+39,/tracks/ROCK/Jeff_Buckley/Jeff Buckley - Hallelujah (Official Video).mp3,4,ROCK,0,0
+40,/tracks/ROCK/Gorillaz/On Melancholy Hill.mp3,1,ROCK,0,0
+41,/tracks/ROCK/Gorillaz/DARE.mp3,1,ROCK,0,0
+42,/tracks/ROCK/Gorillaz/Feel Good Inc..mp3,1,ROCK,1,0
+43,/tracks/ROCK/Fiona_Apple/Fiona Apple - Fast As You Can (Official HD Video).mp3,3,ROCK,0,0
+44,/tracks/ROCK/Fiona_Apple/Fiona Apple - Criminal (Official HD Video).mp3,1,ROCK,0,0
+45,/tracks/ROCK/Fiona_Apple/Fiona Apple - Across the Universe (Official HD Video).mp3,0,ROCK,0,0
+46,/tracks/ROCK/The_Rolling_Stones/The Rolling Stones - Sympathy For The Devil (Official Lyric Video).mp3,0,ROCK,0,0
+47,/tracks/ROCK/The_Rolling_Stones/The Rolling Stones - (I Can't Get No) Satisfaction (Official Lyric Video).mp3,0,ROCK,0,0
+48,"/tracks/ROCK/The_Rolling_Stones/The Rolling Stones - Paint It, Black (Official Lyric Video).mp3",0,ROCK,0,0
+49,/tracks/ROCK/Elton_John/Elton John - Sacrifice.mp3,3,ROCK,0,0
+50,/tracks/ROCK/Elton_John/Elton John - I'm Still Standing.mp3,1,ROCK,0,0
+51,"/tracks/ROCK/Elton_John/Elton John, Dua Lipa - Cold Heart (PNAU Remix) (Official Video).mp3",4,ROCK,0,0
+52,/tracks/ROCK/Arctic_Monkeys/Arctic Monkeys - Do I Wanna Know_ (Official Video).mp3,3,ROCK,0,0
+53,/tracks/ROCK/Arctic_Monkeys/Why'd You Only Call Me When You're High_.mp3,1,ROCK,0,0
+54,/tracks/ROCK/Arctic_Monkeys/I Wanna Be Yours.mp3,3,ROCK,8,0
+55,/tracks/ROCK/Dave_Grohl/Dave Grohl - Play (Official Video).mp3,3,ROCK,0,0
+56,"/tracks/ROCK/Dave_Grohl/Dave Grohl- Smells Like Teen Spirit, Dave drumming live, Nirvana recording @the Ford LA Oct 13, 2021.mp3",1,ROCK,0,0
+57,/tracks/ROCK/Dave_Grohl/Foo Fighters' Dave Grohl vs Animal - The Muppets.mp3,0,ROCK,0,0
+58,/tracks/ROCK/Alt-J/alt-J (∆) Breezeblocks.mp3,3,ROCK,0,0
+59,/tracks/ROCK/Alt-J/Alt-J (∆) - Matilda.mp3,4,ROCK,0,0
+60,/tracks/ROCK/Alt-J/alt-J (∆) - Fitzpleasure (Official Music Video).mp3,0,ROCK,0,0
+61,/tracks/ROCK/The_Strokes/The Strokes - Last Nite (Official HD Video).mp3,1,ROCK,0,0
+62,/tracks/ROCK/The_Strokes/The Strokes - Someday (Official HD Video).mp3,1,ROCK,0,0
+63,/tracks/ROCK/The_Strokes/The Strokes - Reptilia (Official HD Video).mp3,1,ROCK,0,0
+64,/tracks/ROCK/Queen/Queen - Don't Stop Me Now (Official Video).mp3,2,ROCK,0,0
+65,/tracks/ROCK/Queen/Queen - Another One Bites the Dust (Official Video).mp3,4,ROCK,0,0
+66,/tracks/ROCK/Queen/Queen - We Will Rock You (Official Video).mp3,4,ROCK,0,0
+67,/tracks/ELECTRONIC/Disclosure/Disclosure feat. London Grammar - Help Me Lose My Mind (lyrics) Music Video.mp3,3,ELECTRONIC,9,0
+68,/tracks/ELECTRONIC/Disclosure/Disclosure - You & Me (Flume Remix) [Official Video].mp3,2,ELECTRONIC,6,0
+69,/tracks/ELECTRONIC/Disclosure/Disclosure - Magnets ft. Lorde.mp3,1,ELECTRONIC,6,0
+70,/tracks/ELECTRONIC/Disclosure/Disclosure - Latch ft. Sam Smith.mp3,1,ELECTRONIC,4,0
+71,/tracks/ELECTRONIC/Chris_Cornell/Chris Cornell - Patience (Official Video).mp3,0,ELECTRONIC,4,0
+72,/tracks/ELECTRONIC/Chris_Cornell/Chris Cornell - Nearly Forgot My Broken Heart (Lyric Video).mp3,2,ELECTRONIC,4,0
+73,/tracks/ELECTRONIC/Chris_Cornell/Chris Cornell - Part Of Me ft. Timbaland.mp3,4,ELECTRONIC,4,0
+74,/tracks/ELECTRONIC/Steve_Aoki/Steve Aoki - Boneless (Audio).mp3,0,ELECTRONIC,4,0
+75,/tracks/ELECTRONIC/Steve_Aoki/Steve Aoki & Laidback Luke ft. Lil Jon - Turbulence.mp3,2,ELECTRONIC,4,0
+76,"/tracks/ELECTRONIC/Steve_Aoki/Dimitri Vegas & Like Mike, Steve Aoki vs Ummet Ozcan - Melody.mp3",0,ELECTRONIC,4,0
+77,/tracks/ELECTRONIC/The_Blaze/The Blaze - EYES (Live Performance filmed by Blogothèque).mp3,0,ELECTRONIC,4,0
+78,/tracks/ELECTRONIC/The_Blaze/The Blaze - Territory (HQ).mp3,4,ELECTRONIC,2,0
+79,/tracks/ELECTRONIC/The_Blaze/The Blaze - SHE (Audio).mp3,4,ELECTRONIC,0,0
+80,/tracks/ELECTRONIC/David_Guetta/Crank It Up (feat. Akon).mp3,2,ELECTRONIC,0,0
+81,/tracks/ELECTRONIC/David_Guetta/David Guetta - Without You ft. Usher (Lyric video).mp3,0,ELECTRONIC,0,0
+82,/tracks/ELECTRONIC/David_Guetta/David Guetta & Showtek - Bad ft.Vassy (Lyrics Video).mp3,2,ELECTRONIC,0,0
+83,/tracks/ELECTRONIC/David_Guetta/David Guetta Feat. Akon - Sexy Chick (Official Video).mp3,3,ELECTRONIC,2,0
+84,/tracks/ELECTRONIC/David_Guetta/David Guetta - Where Them Girls At (Audio).mp3,2,ELECTRONIC,0,0
+85,/tracks/ELECTRONIC/The_Weeknd/The Weeknd - In The Night (Official Audio).mp3,2,ELECTRONIC,0,0
+86,/tracks/ELECTRONIC/The_Weeknd/Gesaffelstein & The Weeknd - Lost in the Fire (Official Video).mp3,1,ELECTRONIC,0,0
+87,/tracks/ELECTRONIC/The_Weeknd/The Weeknd - After Hours (Audio).mp3,2,ELECTRONIC,0,0
+88,"/tracks/ELECTRONIC/Alesso/Hailee Steinfeld, Alesso - Let Me Go ft. Florida Georgia Line, WATT (Official Video).mp3",1,ELECTRONIC,0,0
+89,/tracks/ELECTRONIC/Alesso/Calvin Harris - Under Control (Audio).mp3,3,ELECTRONIC,0,0
+90,"/tracks/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (Lyrics) we could be.mp3",2,ELECTRONIC,22,0
+91,/tracks/ELECTRONIC/Avicii/Avicii - Levels.mp3,4,ELECTRONIC,0,0
+92,/tracks/ELECTRONIC/Avicii/I could be the one [Nicktim] (lyrics) - Avicii ft. Nicky Romero.mp3,2,ELECTRONIC,0,0
+93,/tracks/ELECTRONIC/Avicii/Avicii - Lonely Together “Audio” ft. Rita Ora.mp3,0,ELECTRONIC,0,0
+94,"/tracks/ELECTRONIC/Meduza/MEDUZA, Becky Hill, Goodboys - Lose Control (Lyric Video).mp3",0,ELECTRONIC,0,0
+95,"/tracks/ELECTRONIC/Meduza/MEDUZA, James Carter - Bad Memories (Lyric Video) ft. Elley Duhé, FAST BOY.mp3",2,ELECTRONIC,0,0
+96,"/tracks/ELECTRONIC/Meduza/MEDUZA, Goodboys - Piece Of Your Heart (Visualizer).mp3",3,ELECTRONIC,0,0
+97,/tracks/ELECTRONIC/CamelPhat/CAMELPHAT & RHODES - Home.mp3,3,ELECTRONIC,0,0
+98,/tracks/ELECTRONIC/CamelPhat/Anyma & CamelPhat - The Sign.mp3,0,ELECTRONIC,0,0
+99,/tracks/ELECTRONIC/CamelPhat/Camelphat & Elderbrook ‘Cola’.mp3,2,ELECTRONIC,0,0
+100,/tracks/ELECTRONIC/Kygo/Kygo - Firestone ft. Conrad Sewell (Official Audio).mp3,4,ELECTRONIC,0,0
+101,/tracks/ELECTRONIC/Kygo/Kygo - Raging ft. Kodaline (Official Lyric Video).mp3,0,ELECTRONIC,0,0
+102,/tracks/ELECTRONIC/Kygo/Kygo - Stole The Show (Lyrics) feat. Parson James.mp3,2,ELECTRONIC,0,0
+103,/tracks/ELECTRONIC/Swedish_House_Mafia/Swedish House Mafia - One (Your Name) (Official Video).mp3,0,ELECTRONIC,0,0
+104,"/tracks/ELECTRONIC/Swedish_House_Mafia/Swedish House Mafia, Sting - Redlight.mp3",4,ELECTRONIC,0,0
+105,/tracks/ELECTRONIC/Swedish_House_Mafia/Swedish House Mafia ft. John Martin - Don't You Worry Child (Official Video).mp3,2,ELECTRONIC,0,0
+106,/tracks/ELECTRONIC/Julian_Casablancas/Daft Punk - Infinity Repeating (2013 Demo) (feat. Julian Casablancas+The Voidz).mp3,4,ELECTRONIC,0,0
+107,/tracks/ELECTRONIC/Julian_Casablancas/Boombox (ft. Julian Casablancas).mp3,2,ELECTRONIC,0,0
+108,/tracks/ELECTRONIC/Julian_Casablancas/Daft Punk - Instant Crush (Video) ft. Julian Casablancas.mp3,0,ELECTRONIC,3,0
+109,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Outside [Audio] ft. Ellie Goulding.mp3,1,ELECTRONIC,0,0
+110,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris & Disciples - How Deep Is Your Love (Audio).mp3,2,ELECTRONIC,0,0
+111,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris feat. Rihanna - This Is What You Came For (Audio).mp3,2,ELECTRONIC,0,0
+112,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Feel So Close (Audio).mp3,2,ELECTRONIC,0,0
+113,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Summer (Audio).mp3,2,ELECTRONIC,0,0
+114,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - Blame (Audio) ft. John Newman.mp3,3,ELECTRONIC,0,0
+115,/tracks/ELECTRONIC/Calvin_Harris/Calvin Harris - My Way.mp3,0,ELECTRONIC,0,0
+116,/tracks/ELECTRONIC/Kevin_Parker/Discodeine - Aydin ft. Kevin Parker (Tame Impala).mp3,2,ELECTRONIC,0,0
+117,/tracks/ELECTRONIC/Kevin_Parker/Mark Ronson - Daffodils (Official Audio) ft. Kevin Parker.mp3,0,ELECTRONIC,0,0
+118,/tracks/ELECTRONIC/Kevin_Parker/Tame Impala - Currents Collectors Edition.mp3,0,ELECTRONIC,0,0
+119,/tracks/ELECTRONIC/Tame_Impala/Tame Impala - The Less I Know The Better (Audio).mp3,2,ELECTRONIC,0,0
+120,/tracks/ELECTRONIC/Tame_Impala/Tame Impala - Borderline (Official Audio).mp3,2,ELECTRONIC,0,0
+121,/tracks/ELECTRONIC/Tame_Impala/Tame Impala - Let It Happen (Official Audio).mp3,1,ELECTRONIC,0,0
+122,"/tracks/ELECTRONIC/Tame_Impala/ZHU, Tame Impala - My Life (Audio).mp3",3,ELECTRONIC,0,0
+123,/tracks/ELECTRONIC/Tiesto/Tiësto & KSHMR feat. Vassy - Secrets (Official Music Video).mp3,2,ELECTRONIC,0,0
+124,/tracks/ELECTRONIC/Tiesto/Tiësto - Adagio For Strings.mp3,0,ELECTRONIC,0,0
+125,/tracks/ELECTRONIC/Tiesto/Tiësto - The Business (Official Audio).mp3,0,ELECTRONIC,0,0
+126,/tracks/ELECTRONIC/Damon_Albarn/Damon Albarn - Heavy Seas Of Love (Official Video).mp3,4,ELECTRONIC,0,0
+127,/tracks/ELECTRONIC/Damon_Albarn/Damon Albarn - Everyday Robots (Official Video).mp3,4,ELECTRONIC,0,0
+128,/tracks/ELECTRONIC/Damon_Albarn/Damon Albarn - Lonely Press Play (Official Video).mp3,4,ELECTRONIC,0,0
+129,"/tracks/ELECTRONIC/Kaytranada/KAYTRANADA, Eight9FLY - Vex Oh (Audio) ft. GoldLink, Ari PenSmith.mp3",1,ELECTRONIC,0,0
+130,/tracks/ELECTRONIC/Kaytranada/KAYTRANADA - YOU'RE THE ONE (feat. SYD).mp3,0,ELECTRONIC,0,0
+131,/tracks/ELECTRONIC/Kaytranada/KAYTRANADA - 10% (Audio) ft. Kali Uchis.mp3,2,ELECTRONIC,0,0
+132,/tracks/ELECTRONIC/Fred_Again/Fred again.. & Baby Keem - leavemealone.mp3,1,ELECTRONIC,0,0
+133,/tracks/ELECTRONIC/Fred_Again/Fred again.. x Swedish House Mafia - Turn On The Lights again.. (feat. Future) [Visualiser].mp3,3,ELECTRONIC,0,0
+134,/tracks/ELECTRONIC/Fred_Again/Fred again.. feat. The Blessed Madonna - Marea (We’ve Lost Dancing) (Official Audio).mp3,0,ELECTRONIC,2,0
+135,/tracks/ELECTRONIC/Fred_Again/Fred again.. - Danielle (smile on my face) (Lyrics).mp3,3,ELECTRONIC,0,0
+136,/tracks/ELECTRONIC/Courtney_Barnett/Courtney Barnett - Avant Gardener.mp3,0,ELECTRONIC,0,0
+137,/tracks/ELECTRONIC/Courtney_Barnett/Depreston - Courtney Barnett.mp3,4,ELECTRONIC,0,0
+138,/tracks/ELECTRONIC/Courtney_Barnett/Pedestrian At Best - Courtney Barnett.mp3,2,ELECTRONIC,0,0
+139,/tracks/ELECTRONIC/Elderbrook/Elderbrook & Rudimental - Something About You [Official Audio].mp3,0,ELECTRONIC,0,0
+140,/tracks/ELECTRONIC/Elderbrook/Elderbrook - Numb.mp3,4,ELECTRONIC,0,0
+141,/tracks/ELECTRONIC/Elderbrook/Elderbrook - Talking.mp3,4,ELECTRONIC,0,0
+142,/tracks/ELECTRONIC/Robin_Schulz/Robin Schulz - Sugar (feat. Francesco Yates) (Official Lyric Video).mp3,0,ELECTRONIC,0,0
+143,/tracks/ELECTRONIC/Robin_Schulz/Lilly Wood & The Prick and Robin Schulz - Prayer In C (Robin Schulz Remix) (Official).mp3,0,ELECTRONIC,0,0
+144,/tracks/ELECTRONIC/Robin_Schulz/Mr. Probz - Waves (Robin Schulz Remix Radio Edit).mp3,4,ELECTRONIC,0,0
+145,/tracks/ELECTRONIC/ZHU/ZHU - Generationwhy (Audio).mp3,3,ELECTRONIC,0,0
+146,/tracks/ELECTRONIC/ZHU/ZHU - Cocaine Model.mp3,4,ELECTRONIC,0,0
+147,/tracks/ELECTRONIC/ZHU/ZHU - Faded.mp3,0,ELECTRONIC,0,0
+148,/tracks/ELECTRONIC/ZHU/ZHU - In The Morning.mp3,4,ELECTRONIC,0,0
+149,/tracks/ELECTRONIC/ZHU/ZHU x Skrillex x THEY. - Working For It (Audio).mp3,0,ELECTRONIC,0,0
+150,/tracks/ELECTRONIC/ZHU/ZHU - Good Life (Audio).mp3,4,ELECTRONIC,0,0
+151,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL ●● Innerbloom (Official Video).mp3,0,ELECTRONIC,0,0
+152,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL - Sundream.mp3,0,ELECTRONIC,0,0
+153,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL - Until The Sun Needs To Rise.mp3,2,ELECTRONIC,0,0
+154,/tracks/ELECTRONIC/Rufus_Du_Sol/RÜFÜS DU SOL ●● You Were Right [Official Video].mp3,2,ELECTRONIC,0,0
+155,/tracks/ELECTRONIC/Florence_Welch/Florence + The Machine - Spectrum (Say My Name) (Calvin Harris remix).mp3,2,ELECTRONIC,0,0
+156,/tracks/ELECTRONIC/Florence_Welch/Calvin Harris Feat. Florence Welch - Sweet Nothing (Long - Extended Version) - HQ.mp3,1,ELECTRONIC,0,0
+157,/tracks/ELECTRONIC/Florence_Welch/Florence + The Machine - Dog Days Are Over (2010 Version) (Official Music Video).mp3,4,ELECTRONIC,0,0
+158,/tracks/ELECTRONIC/Anyma/Anyma & Chris Avantgarde - Eternity.mp3,3,ELECTRONIC,0,0
+159,/tracks/ELECTRONIC/Anyma/Anyma & CamelPhat - The Sign.mp3,3,ELECTRONIC,0,0
+160,/tracks/ELECTRONIC/Anyma/Anyma & Chris Avantgarde - Consciousness.mp3,4,ELECTRONIC,0,0
+161,/tracks/ELECTRONIC/Kid_Cudi/Kid Cudi - Day 'N' Nite.mp3,4,ELECTRONIC,0,0
+162,/tracks/ELECTRONIC/Kid_Cudi/Pursuit of Happiness (Steve Aoki Remix) - Kid Cudi AUDIO.mp3,0,ELECTRONIC,0,0
+163,/tracks/ELECTRONIC/Kid_Cudi/David Guetta Feat. Kid Cudi - Memories (Official Video).mp3,2,ELECTRONIC,0,0
+164,/tracks/ELECTRONIC/Kevin_De_Vries/Kevin de Vries - Dance With Me.mp3,0,ELECTRONIC,0,0
+165,/tracks/ELECTRONIC/Kevin_De_Vries/Kevin de Vries & Mau P - Metro (Extended Mix).mp3,2,ELECTRONIC,0,0
+166,/tracks/ELECTRONIC/Kevin_De_Vries/Kevin de Vries - Dragon Of Eden  ( MNC ).mp3,4,ELECTRONIC,0,0
+167,/tracks/POP/Demi_Lovato/Cool for the Summer (Official Video) - Demi Lovato.mp3,1,POP,12,0
+168,/tracks/POP/Demi_Lovato/Solo - Clean Bandit.mp3,2,POP,8,0
+169,/tracks/POP/Demi_Lovato/Confident Official Video - Demi Lovato.mp3,0,POP,8,0
+170,/tracks/POP/Demi_Lovato/Heart Attack Official Video - Demi Lovato.mp3,2,POP,3,0
+171,/tracks/POP/Katy_Perry/Katy Perry - Last Friday Night (T.G.I.F) (Lyrics) - 7clouds Rock.mp3,2,POP,2,0
+172,/tracks/POP/Katy_Perry/Swish Swish - Katy Perry.mp3,2,POP,0,0
+173,/tracks/POP/Katy_Perry/California Gurls (Official Music Video) - Katy Perry.mp3,2,POP,0,0
+174,/tracks/POP/Katy_Perry/Firework (Official Music Video) - Katy Perry.mp3,2,POP,0,0
+175,/tracks/POP/Katy_Perry/Katy Perry - Dark Horse ft. Juicy J - KatyPerryVEVO.mp3,1,POP,0,0
+176,/tracks/POP/Katy_Perry/KATY PERRY - Hot N Cold _ Traducida al Español - loveyourself.mp3,2,POP,0,0
+177,/tracks/POP/Jim_James/Jim James - State Of The Art (A.E.I.O.U.).mp3,4,POP,0,0
+178,/tracks/POP/Jim_James/Jim James - Here In Spirit.mp3,0,POP,0,0
+179,/tracks/POP/Jim_James/Jim James - A New Life.mp3,1,POP,0,0
+180,/tracks/POP/Justin_Bieber/Justin Bieber - Company.mp3,0,POP,0,0
+181,/tracks/POP/Justin_Bieber/Justin Bieber - As Long As You Love Me ft. Big Sean (Official Audio).mp3,0,POP,0,0
+182,/tracks/POP/Justin_Bieber/Justin Bieber - Somebody To Love Remix ft. Usher (Official Music Video).mp3,1,POP,0,0
+183,/tracks/POP/Justin_Bieber/Justin Bieber - Sorry (Lyric Video).mp3,2,POP,0,0
+184,/tracks/POP/Justin_Bieber/Justin Bieber - Beauty And A Beat ft. Nicki Minaj (Official Audio).mp3,2,POP,0,0
+185,/tracks/POP/Justin_Bieber/Skrillex and Diplo - _Where Are Ü Now_ with Justin Bieber (Official Video).mp3,1,POP,0,0
+186,/tracks/POP/Justin_Bieber/DJ Snake ft. Justin Bieber - Let Me Love You [Lyric Video].mp3,0,POP,0,0
+187,/tracks/POP/Justin_Bieber/Major Lazer - Cold Water (feat. Justin Bieber & MØ) (Official Lyric Video).mp3,2,POP,0,0
+188,/tracks/POP/Coldplay/Coldplay - Hymn For The Weekend (Official Video).mp3,1,POP,0,0
+189,/tracks/POP/Coldplay/Coldplay - A Sky Full Of Stars (Official Video).mp3,0,POP,0,0
+190,/tracks/POP/Coldplay/Clocks.mp3,1,POP,0,0
+191,/tracks/POP/Dave_Matthews/Dave Matthews Band - Crash Into Me (Official Video).mp3,1,POP,0,0
+192,/tracks/POP/Dave_Matthews/Dave Matthews Band - You & Me (Official Video).mp3,1,POP,0,0
+193,/tracks/POP/Dave_Matthews/Dave Matthews Band - Crush (Official HD Video).mp3,1,POP,0,0
+194,/tracks/POP/Lady_Gaga/Lady Gaga - Judas (Audio) - GagaTube GagaTube.mp3,2,POP,0,0
+195,/tracks/POP/Lady_Gaga/Lady Gaga - Poker Face (Official Music Video).mp3,2,POP,0,0
+196,/tracks/POP/Lady_Gaga/Lady Gaga - Telephone ft. Beyoncé (Audio) - GagaTube GagaTube.mp3,2,POP,0,0
+197,/tracks/POP/Lady_Gaga/Lady Gaga - Alejandro - musiclover11.mp3,2,POP,0,0
+198,/tracks/POP/Lady_Gaga/Lady Gaga - You And I (Audio) - GagaTube GagaTube.mp3,2,POP,0,0
+199,/tracks/POP/Lady_Gaga/Lady Gaga - Bad Romance (Official Music Video).mp3,2,POP,0,0
+200,/tracks/POP/Lady_Gaga/Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis.mp3,2,POP,0,0
+201,/tracks/POP/Lady_Gaga/Lady Gaga - Paparazzi (Audio) - GagaTube GagaTube.mp3,2,POP,0,0
+202,/tracks/POP/Harry_Styles/Harry Styles - Golden (Official Video).mp3,2,POP,0,0
+203,/tracks/POP/Harry_Styles/Harry Styles - Adore You (Official Video).mp3,2,POP,0,0
+204,/tracks/POP/Harry_Styles/Harry Styles - Sign of the Times (Official Video).mp3,2,POP,0,0
+205,/tracks/POP/Charli_xcx/Von dutch - Charli XCX.mp3,2,POP,0,0
+206,/tracks/POP/Charli_xcx/Charli XCX - Boom Clap [traducida_sub español] - Sweet Paradise.mp3,0,POP,0,0
+207,/tracks/POP/Charli_xcx/Charli XCX - Speed Drive (From Barbie The Album) __ Sub español + Lyrics - ANDREW BUTRON.mp3,2,POP,0,0
+208,/tracks/POP/Jason_Isbell/Jason Isbell and the 400 Unit - Relatively Easy _ Live at the Bijou Theatre 2022.mp3,3,POP,0,0
+209,/tracks/POP/Jason_Isbell/Jason Isbell and the 400 Unit - Yvette _ Live at the Bijou Theatre 2022.mp3,4,POP,0,0
+210,/tracks/POP/Jason_Isbell/Jason Isbell and the 400 Unit - White Beretta (Official Music Video).mp3,3,POP,0,0
+211,/tracks/POP/Beck/Beck - Loser (Official Music Video).mp3,0,POP,0,0
+212,"/tracks/POP/Beck/Cage The Elephant, Beck - Night Running (Official Audio).mp3",2,POP,0,0
+213,/tracks/POP/Beck/Beck - E-Pro.mp3,0,POP,0,0
+214,/tracks/POP/Ed_Sheeran/Ed Sheeran - Thinking Out Loud (Official Music Video).mp3,0,POP,0,0
+215,/tracks/POP/Ed_Sheeran/Ed Sheeran - Perfect (Official Music Video).mp3,2,POP,0,0
+216,/tracks/POP/Ed_Sheeran/Ed Sheeran - Shape of You (Official Music Video).mp3,0,POP,0,0
+217,/tracks/POP/Lewis_Capaldi/Lewis Capaldi - Hold Me While You Wait (Interlude Session).mp3,0,POP,0,0
+218,/tracks/POP/Lewis_Capaldi/Lewis Capaldi - Someone You Loved.mp3,1,POP,0,0
+219,/tracks/POP/Lewis_Capaldi/Lewis Capaldi - Bruises (Official Audio).mp3,3,POP,0,0
+220,/tracks/POP/John_Mayer/John Mayer - Your Body Is a Wonderland (Official HD Video).mp3,1,POP,0,0
+221,/tracks/POP/John_Mayer/John Mayer - New Light (Premium Content!).mp3,0,POP,0,0
+222,/tracks/POP/John_Mayer/John Mayer - Who You Love (Official Video) ft. Katy Perry.mp3,3,POP,0,0
+223,/tracks/POP/Sia/David Guetta - Titanium ft. Sia (Official Video).mp3,2,POP,0,0
+224,/tracks/POP/Sia/Sia - Chandelier (Official Video).mp3,2,POP,0,0
+225,"/tracks/POP/Sia/LSD - Thunderclouds (Official Video) ft. Sia, Diplo, Labrinth.mp3",0,POP,0,0
+226,/tracks/POP/Billie_Eilish/Billie Eilish - when the party's over (Official Music Video).mp3,3,POP,0,0
+227,/tracks/POP/Billie_Eilish/Billie Eilish - bad guy (Official Music Video).mp3,3,POP,0,0
+228,/tracks/POP/Billie_Eilish/Billie Eilish - idontwannabeyouanymore (Official Vertical Video).mp3,0,POP,0,0
+229,/tracks/POP/Lana_Del_Rey/Lana Del Rey - Brooklyn Baby (Official Audio).mp3,0,POP,0,0
+230,/tracks/POP/Lana_Del_Rey/Lana Del Rey vs Cedric Gervais 'Summertime Sadness' Remix.mp3,1,POP,0,0
+231,/tracks/POP/Lana_Del_Rey/Lana Del Rey - Video Games.mp3,4,POP,0,0
+232,"/tracks/POP/Usher/Usher - Yeah! (Official Video) ft. Lil Jon, Ludacris.mp3",2,POP,0,0
+233,/tracks/POP/Usher/Usher - OMG ft. will.i.am.mp3,1,POP,0,0
+234,/tracks/POP/Usher/Usher - DJ Got Us Fallin' In Love (Lyrics) ft. Pitbull.mp3,2,POP,0,0
+235,/tracks/POP/H.E.R/KAYTRANADA - Intimidated (Audio) ft. H.E.R..mp3,2,POP,0,0
+236,/tracks/POP/H.E.R/H.E.R. - Damage (Official Video).mp3,0,POP,0,0
+237,/tracks/POP/H.E.R/H.E.R. - Could've Been (Audio) ft. Bryson Tiller.mp3,0,POP,0,0
+238,/tracks/POP/Lorde/Lorde - Team.mp3,0,POP,0,0
+239,/tracks/POP/Lorde/Ribs.mp3,3,POP,0,0
+240,/tracks/POP/Lorde/Lorde - Royals (US Version).mp3,4,POP,0,0
+241,/tracks/POP/Flo Rida/Flo Rida - Good Feeling (Audio).mp3,1,POP,0,0
+242,/tracks/POP/Flo Rida/Flo Rida feat. David Guetta - Club Can’t Handle Me _ Lyrics.mp3,2,POP,0,0
+243,/tracks/POP/Flo Rida/Flo Rida feat. Sia - Wild Ones _ Lyrics.mp3,2,POP,0,0
+244,/tracks/POP/Dua_Lipa/Dua Lipa - New Rules (Official Music Video).mp3,2,POP,0,0
+245,/tracks/POP/Dua_Lipa/Dua Lipa - Break My Heart (Official Video).mp3,2,POP,0,0
+246,/tracks/POP/Dua_Lipa/Dua Lipa - Don't Start Now (Official Music Video).mp3,2,POP,0,0
+247,/tracks/POP/Bruno_Mars/Bruno Mars - Locked Out Of Heaven (Official Music Video).mp3,2,POP,0,0
+248,/tracks/POP/Bruno_Mars/Bruno Mars - That’s What I Like [Official Music Video].mp3,2,POP,0,0
+249,/tracks/POP/Bruno_Mars/Bruno Mars - When I Was Your Man (Official Music Video).mp3,3,POP,0,0
+250,/tracks/POP/Years_And_Years/Olly Alexander - Desire (Gryffin Remix).mp3,2,POP,0,0
+251,/tracks/POP/Years_And_Years/Years & Years - King (Official Video).mp3,2,POP,0,0
+252,/tracks/POP/Years_And_Years/Years & Years - Shine (Official Video).mp3,2,POP,0,0
+253,/tracks/POP/Hozier/Hozier - Work Song (Official Video).mp3,3,POP,0,0
+254,/tracks/POP/Hozier/Hozier - Take Me To Church.mp3,0,POP,0,0
+255,/tracks/POP/Hozier/Hozier - Too Sweet (Official Lyric Video).mp3,2,POP,0,0
+256,/tracks/POP/Ariana_Grande/Ariana Grande - Dangerous Woman (Official Audio).mp3,0,POP,0,0
+257,/tracks/POP/Ariana_Grande/Side To Side.mp3,2,POP,33,0
+258,/tracks/POP/Ariana_Grande/Ariana Grande - Into You (Official Video).mp3,2,POP,0,0
+259,/tracks/POP/SZA/SZA - Kill Bill (Audio).mp3,0,POP,0,0
+260,/tracks/POP/SZA/SZA - Snooze (Audio).mp3,0,POP,0,0
+261,/tracks/POP/SZA/SZA - Good Days (Audio).mp3,0,POP,0,0
+262,/tracks/POP/Billie_Joe_Armstrong/That Thing You Do!.mp3,2,POP,0,0
+263,/tracks/POP/Billie_Joe_Armstrong/Police on My Back.mp3,2,POP,0,0
+264,/tracks/POP/Billie_Joe_Armstrong/Whole Wide World.mp3,2,POP,0,0
+265,/tracks/POP/BTS/BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV.mp3,2,POP,0,0
+266,/tracks/POP/BTS/BTS (방탄소년단) 'Dynamite' Official MV.mp3,2,POP,0,0
+267,/tracks/POP/BTS/BTS (방탄소년단) 'Butter' Official MV.mp3,0,POP,0,0
+268,/tracks/POP/Pitbull/Pitbull - International Love (Audio) ft. Chris Brown.mp3,1,POP,0,0
+269,/tracks/POP/Pitbull/Pitbull - Hey Baby (Drop It To The Floor) ft. T-Pain.mp3,1,POP,0,0
+270,"/tracks/POP/Pitbull/Pitbull, Ne-Yo - Time Of Our Lives (Audio).mp3",0,POP,0,0
+271,"/tracks/POP/Pitbull/Pitbull - Give Me Everything ft. Ne-Yo, Afrojack, Nayer.mp3",1,POP,0,0
+272,"/tracks/POP/Pitbull/DJ Felli Fel - Boomerang Feat. Akon, Pitbull & Jermaine Dupri [Official Video] HD.mp3",2,POP,1,0
+273,/tracks/POP/Pitbull/Pitbull - Back in Time (from _Men In Black III_) [Official Audio].mp3,2,POP,0,0
+274,/tracks/POP/James_Blake/James Blake - Lost Angel Nights (Audio).mp3,3,POP,0,0
+275,"/tracks/POP/James_Blake/James Blake, slowthai - Funeral (Official Video).mp3",3,POP,0,0
+276,/tracks/POP/James_Blake/James Blake - Barefoot In The Park feat. Rosalía (Official Video).mp3,3,POP,0,0
+277,/tracks/POP/Eddie_Vedder/Eddie Vedder - Sleeping By Myself.mp3,4,POP,0,0
+278,"/tracks/POP/Eddie_Vedder/Olivia Vedder, Eddie Vedder, Glen Hansard - My Father's Daughter (Official Video).mp3",3,POP,0,0
+279,/tracks/POP/Eddie_Vedder/Can't Keep (Music Video) - Ukulele Songs - Eddie Vedder.mp3,0,POP,0,0
+280,/tracks/POP/Feist/Feist - 1234.mp3,4,POP,0,0
+281,/tracks/POP/Feist/Feist - My Moon My Man (Closed Captioned).mp3,4,POP,0,0
+282,/tracks/POP/Feist/Feist - I Feel It All.mp3,4,POP,0,0
+283,/tracks/POP/Rihanna/Rihanna - We Found Love (Lyrics) ft. Calvin Harris.mp3,1,POP,0,0
+284,/tracks/POP/Rihanna/Rihanna - Only Girl (In The World).mp3,2,POP,0,0
+285,/tracks/POP/Rihanna/Rihanna - Diamonds (Lyrics).mp3,0,POP,0,0
+286,/tracks/POP/Maroon_5/Maroon 5 - Payphone ft. Wiz Khalifa (Explicit) (Official Music Video).mp3,1,POP,0,0
+287,/tracks/POP/Maroon_5/Maroon 5 - Animals.mp3,0,POP,0,0
+288,/tracks/POP/Maroon_5/Maroon 5 - Maps (Lyric Video).mp3,1,POP,0,0
+289,/tracks/POP/Donald_Fagen/I.G.Y..mp3,3,POP,0,0
+290,/tracks/POP/Donald_Fagen/The Nightfly.mp3,1,POP,0,0
+291,/tracks/POP/Donald_Fagen/New Frontier.mp3,1,POP,0,0
+292,/tracks/POP/Britney_Spears/Britney Spears - Criminal (Audio) - Britney Jean Spears.mp3,2,POP,0,0
+293,/tracks/POP/Britney_Spears/Britney Spears - Circus (Audio) - Britney Jean Spears.mp3,2,POP,0,0
+294,/tracks/POP/Britney_Spears/Britney Spears - Till The World Ends (Audio) - Britney Jean Spears.mp3,2,POP,0,0
+295,/tracks/POP/Britney_Spears/Toxic (Official HD Video) - Britney Spears.mp3,3,POP,0,0
+296,/tracks/POP/Britney_Spears/Baby One More Time - 7clouds Rock.mp3,0,POP,0,0
+297,/tracks/POP/Britney_Spears/Britney Spears - Gimme More (Official HD Video) - BritneySpearsVEVO.mp3,2,POP,0,0
+298,/tracks/POP/Britney_Spears/Oops!...I Did It Again - Britney Spears.mp3,2,POP,0,0
+299,/tracks/POP/Britney_Spears/Britney Spears - Womanizer (Director's Cut) (Official HD Video) - BritneySpearsVEVO.mp3,2,POP,0,0
+300,/tracks/POP/John_Legend/John Legend - Love Me Now (Official Video).mp3,0,POP,0,0
+301,/tracks/POP/John_Legend/John Legend - All of Me (Official Video).mp3,1,POP,0,0
+302,/tracks/POP/John_Legend/John Legend - Tonight (Best You Ever Had) (Official Video) ft. Ludacris.mp3,0,POP,0,0
+303,"/tracks/POP/Sam_Smith/Sam Smith, Normani - Dancing With A Stranger (Official Music Video).mp3",0,POP,0,0
+304,"/tracks/POP/Sam_Smith/Calvin Harris, Sam Smith - Promises (Official Lyric Video).mp3",0,POP,0,0
+305,/tracks/POP/Sam_Smith/Sam Smith - I'm Not The Only One (Lyrics).mp3,0,POP,0,0
+306,/tracks/POP/Kesha/Ke ha - Take It Off (Official Video).mp3,1,POP,0,0
+307,/tracks/POP/Kesha/Ke$ha - Die Young (Official Video).mp3,2,POP,0,0
+308,/tracks/POP/Kesha/Pitbull - Timber (Official Video) ft. Ke$ha.mp3,2,POP,0,0
+309,/tracks/POP/Kesha/Ke$ha - Blow (Official Video).mp3,1,POP,0,0
+310,/tracks/POP/Kesha/Ke ha - TiK ToK (Official HD Video).mp3,2,POP,0,0
+311,/tracks/POP/Norah_Jones/Norah Jones - Sunrise.mp3,3,POP,0,0
+312,/tracks/POP/Norah_Jones/Norah Jones - Don't Know Why.mp3,3,POP,0,0
+313,/tracks/POP/Norah_Jones/Norah Jones - Come Away With Me.mp3,4,POP,0,0
+314,/tracks/POP/Karen_O/Karen O - Rapt (Official Video).mp3,3,POP,0,0
+315,/tracks/POP/Karen_O/Karen O - I Shall Rise (Official Video).mp3,3,POP,0,0
+316,/tracks/POP/Karen_O/Karen O - Strange Love (from _Frankenweenie_) - Karen O.mp3,4,POP,0,0
+317,/tracks/POP/Black_Eyed_Peas/Rock That Body.mp3,2,POP,0,0
+318,/tracks/POP/Black_Eyed_Peas/Meet Me Halfway.mp3,0,POP,0,0
+319,/tracks/POP/Black_Eyed_Peas/The Black Eyed Peas - The Time (Dirty Bit) (Audio).mp3,0,POP,0,0
+320,/tracks/POP/Black_Eyed_Peas/The Black Eyed Peas - Just Can't Get Enough (Official Music Video).mp3,3,POP,0,0
+321,/tracks/POP/Black_Eyed_Peas/I Gotta Feeling.mp3,0,POP,0,0
+322,/tracks/POP/Adele/Adele - Rolling in the Deep (Official Music Video).mp3,4,POP,0,0
+323,/tracks/POP/Adele/Adele - Someone Like You (Official Music Video).mp3,3,POP,0,0
+324,/tracks/POP/Adele/Adele - Easy On Me (Official Video).mp3,3,POP,0,0
+325,/tracks/POP/Taylor_Swift/Taylor Swift - Blank Space (Taylor's Version) (Lyric Video).mp3,1,POP,0,0
+326,/tracks/POP/Taylor_Swift/Taylor Swift - Bad Blood (Taylor's Version) (Lyric Video).mp3,3,POP,0,0
+327,/tracks/POP/Taylor_Swift/Taylor Swift - Style (Taylor's Version) (Lyric Video).mp3,2,POP,0,0
+328,/tracks/POP/Miley_Cyrus/Doctor (Work It Out) - Pharrell Williams & Miley Cyrus.mp3,2,POP,0,0
+329,/tracks/POP/Miley_Cyrus/Flowers - Miley Cyrus.mp3,0,POP,0,0
+330,/tracks/POP/Miley_Cyrus/Mark Ronson - Nothing Breaks Like a Heart (Lyrics) Ft. Miley Cyrus - Lazy Fox.mp3,0,POP,0,0
+331,/tracks/POP/Miley_Cyrus/We Can't Stop (Official Video) - Miley Cyrus.mp3,0,POP,0,0
+332,/tracks/POP/Miley_Cyrus/Miley Cyrus - Wrecking Ball (Official Video) - MileyCyrusVEVO.mp3,0,POP,0,0
+333,/tracks/POP/Miley_Cyrus/Miley Cyrus - Party In The U.S.A. (Official Video) - HollywoodRecordsVEVO.mp3,2,POP,0,0
+334,/tracks/POP/Miley_Cyrus/Malibu (Official Video) - Miley Cyrus.mp3,0,POP,0,0
+335,/tracks/RAP/DaBaby/DaBaby – NASTY Ft. MEGAN THEE STALLION & ASHANTI [AUDIO}.mp3,0,RAP,13,0
+336,/tracks/RAP/DaBaby/DaBaby – ROCKSTAR FT RODDY RICCH [Audio].mp3,1,RAP,9,0
+337,/tracks/RAP/DaBaby/DaBaby - Practice (Official Audio).mp3,1,RAP,5,0
+338,/tracks/RAP/Travis_Scott/Travis Scott - goosebumps ft. Kendrick Lamar.mp3,4,RAP,4,0
+339,/tracks/RAP/Travis_Scott/Travis Scott - SICKO MODE (Audio).mp3,1,RAP,4,0
+340,/tracks/RAP/Travis_Scott/Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3,0,RAP,4,0
+341,/tracks/RAP/J_Cole/J. Cole - H.Y.B. feat. Bas & Central Cee (Official Audio).mp3,4,RAP,4,0
+342,/tracks/RAP/J_Cole/J. Cole - 7 Minute Drill (Official Audio).mp3,0,RAP,2,0
+343,/tracks/RAP/J_Cole/J. Cole - Fever (Official Audio).mp3,3,RAP,2,0
+344,/tracks/RAP/Eminem/Eminem - Without Me (Official Music Video).mp3,4,RAP,2,0
+345,/tracks/RAP/Eminem/Eminem - Not Afraid (Lyrics).mp3,4,RAP,2,0
+346,/tracks/RAP/Eminem/Eminem - The Real Slim Shady (Official Video - Clean Version).mp3,1,RAP,2,0
+347,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Savage (Lyrics).mp3,0,RAP,2,0
+348,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Thot Sh_t _ Lyrics.mp3,4,RAP,0,0
+349,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Body [Official Dance Video].mp3,0,RAP,0,0
+350,/tracks/RAP/Megan_Thee_Stallion/Megan Thee Stallion - Captain Hook [Official Video].mp3,4,RAP,0,0
+351,"/tracks/RAP/6ix9ine/6ix9ine - FEFE ft. Nicki Minaj, Murda Beatz.mp3",4,RAP,0,0
+352,/tracks/RAP/6ix9ine/TROLLZ - 6ix9ine & Nicki Minaj  (Official Music Video).mp3,1,RAP,0,0
+353,/tracks/RAP/6ix9ine/6IX9INE- GOOBA (Official Music Video).mp3,0,RAP,0,0
+354,/tracks/RAP/Nicki_Minaj/Nicki Minaj - The Night Is Still Young (Official Audio).mp3,0,RAP,0,0
+355,/tracks/RAP/Nicki_Minaj/Nicki Minaj - Big Foot (Official Audio).mp3,4,RAP,0,0
+356,/tracks/RAP/Nicki_Minaj/Starships - Nicki Minaj (Lyrics) 🎵.mp3,0,RAP,0,0
+357,/tracks/RAP/Nicki_Minaj/Nicki Minaj - Love Me Enough (feat. Monica & Keyshia Cole) [Official Audio].mp3,1,RAP,0,0
+358,/tracks/RAP/Nicki_Minaj/Nicki Minaj - Anaconda.mp3,4,RAP,0,0
+359,/tracks/RAP/Nicki_Minaj/Super Bass.mp3,4,RAP,0,0
+360,/tracks/RAP/Childish_Gambino/Childish Gambino - This Is America (Official Video).mp3,1,RAP,0,0
+361,/tracks/RAP/Childish_Gambino/Les.mp3,1,RAP,79,0
+362,/tracks/RAP/Childish_Gambino/Heartbeat.mp3,1,RAP,0,0
+363,/tracks/RAP/50_Cent/50 Cent  -  Candy Shop (Explicit).mp3,4,RAP,0,0
+364,/tracks/RAP/50_Cent/50 Cent - In Da Club (Official Music Video).mp3,1,RAP,0,0
+365,/tracks/RAP/50_Cent/50 cent - 21 questions; sub español.mp3,1,RAP,0,0
+366,/tracks/RAP/Ice_Spice/Nicki Minaj & Ice Spice – Barbie World (with Aqua) [Official Music Video].mp3,0,RAP,0,0
+367,/tracks/RAP/Ice_Spice/Ice Spice & Nicki Minaj - Princess Diana (Official Music Video).mp3,0,RAP,0,0
+368,/tracks/RAP/Ice_Spice/Ice Spice - Think U The Shit (Fart) (Official Video).mp3,1,RAP,0,0
+369,/tracks/RAP/Ice_Spice/Ice Spice - No Clarity (Official Music Video).mp3,4,RAP,0,0
+370,/tracks/RAP/Ice_Spice/Ice Spice - in ha mood (Official Video).mp3,4,RAP,0,0
+371,/tracks/RAP/Ice_Spice/Ice Spice - Deli.mp3,4,RAP,0,0
+372,/tracks/RAP/Iggy_Azalea/Team - Iggy Azalea.mp3,4,RAP,0,0
+373,/tracks/RAP/Iggy_Azalea/Kream - Iggy Azalea.mp3,4,RAP,0,0
+374,/tracks/RAP/Iggy_Azalea/Iggy Azalea - Black Widow (feat. Rita Ora) - Iggy Azalea.mp3,1,RAP,0,0
+375,/tracks/RAP/Iggy_Azalea/Work - Iggy Azalea.mp3,4,RAP,0,0
+376,/tracks/RAP/Iggy_Azalea/Fancy PG Slated - Iggy Azalea.mp3,0,RAP,0,0
+377,/tracks/RAP/Iggy_Azalea/Iggy Azalea - Money Come (Remix) feat. Big Boss Vette & Ivorian Doll [Lyric Video] - Iggy Azalea.mp3,0,RAP,0,0
+378,/tracks/RAP/Iggy_Azalea/Started - Iggy Azalea.mp3,4,RAP,0,0
+379,/tracks/RAP/Tyga/Tyga - Hookah ft. Young Thug.mp3,2,RAP,0,0
+380,/tracks/RAP/Tyga/Tyga - SWISH (Official Music Video).mp3,1,RAP,0,0
+381,/tracks/RAP/Tyga/Tyga - Wait For A Minute (Official Music Video) (Explicit) ft. Justin Bieber.mp3,2,RAP,0,0
+382,/tracks/RAP/Tyga/Tyga - Taste (Official Video) ft. Offset.mp3,4,RAP,0,0
+383,"/tracks/RAP/Metro_Boomin/Metro Boomin, The Weeknd, 21 Savage - Creepin' (Visualizer).mp3",4,RAP,3,0
+384,"/tracks/RAP/Metro_Boomin/Future, Metro Boomin, The Weeknd - We Still Don't Trust You (Official Music Video).mp3",1,RAP,0,0
+385,"/tracks/RAP/Metro_Boomin/Metro Boomin, Don Toliver, Future - Too Many Nights (Official Video).mp3",4,RAP,0,0
+386,"/tracks/RAP/Metro_Boomin/Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio).mp3",4,RAP,0,0
+387,/tracks/RAP/Doja_Cat/Doja Cat - Paint The Town Red (Lyrics).mp3,4,RAP,0,0
+388,/tracks/RAP/Doja_Cat/Doja Cat - Woman (Visualizer).mp3,4,RAP,0,0
+389,"/tracks/RAP/Doja_Cat/Doja Cat, Tyga - Juicy (Official Video).mp3",4,RAP,0,0
+390,/tracks/RAP/Doja_Cat/Doja Cat - Say So (Official Video).mp3,0,RAP,0,0
+391,/tracks/RAP/Doja_Cat/Doja Cat - Kiss Me More (Official Video) ft. SZA.mp3,4,RAP,0,0
+392,/tracks/RAP/Doja_Cat/Doja Cat - Need to Know (Official Video).mp3,0,RAP,0,0
+393,/tracks/RAP/Doja_Cat/Doja Cat - Streets (Audio).mp3,4,RAP,0,0
+394,/tracks/RAP/Kendrick_Lamar/Kendrick Lamar - HUMBLE..mp3,4,RAP,0,0
+395,"/tracks/RAP/Kendrick_Lamar/Kendrick Lamar, SZA - All The Stars.mp3",4,RAP,0,0
+396,/tracks/RAP/Kendrick_Lamar/Kendrick Lamar - Money Trees (Feat. Jay Rock).mp3,4,RAP,27,0
+397,/tracks/RAP/Kendrick_Lamar/Pray For Me.mp3,4,RAP,0,0
+398,/tracks/RAP/Kendrick_Lamar/Kendrick Lamar - Swimming Pools (Drank).mp3,3,RAP,0,0
+399,/tracks/RAP/Frank_Ocean/Frank Ocean - In My Room (Lyric Video).mp3,1,RAP,0,0
+400,/tracks/RAP/Frank_Ocean/Frank Ocean - Nights.mp3,1,RAP,14,0
+401,/tracks/RAP/Frank_Ocean/Frank Ocean - Pink + White.mp3,1,RAP,0,0
+402,/tracks/RAP/Cardi_B/Cardi B - WAP feat. Megan Thee Stallion [Official Audio].mp3,1,RAP,0,0
+403,"/tracks/RAP/Cardi_B/Cardi B, Bad Bunny & J Balvin - I Like It [Official Music Video].mp3",4,RAP,0,0
+404,/tracks/RAP/Cardi_B/Cardi B - Bodak Yellow [OFFICIAL MUSIC VIDEO].mp3,4,RAP,0,0
+405,/tracks/RAP/Pop_Smoke/POP SMOKE - WAR FT. LIL TJAY (OFFICIAL VIDEO).mp3,4,RAP,0,0
+406,/tracks/RAP/Pop_Smoke/POP SMOKE - DIOR (OFFICIAL VIDEO).mp3,0,RAP,0,0
+407,"/tracks/RAP/Pop_Smoke/Pop Smoke - For The Night (Audio) ft. Lil Baby, DaBaby.mp3",4,RAP,0,0
+408,/tracks/RAP/Drake/Drake - Massive.mp3,4,RAP,0,0
+409,/tracks/RAP/Drake/drake- one dance.mp3,1,RAP,0,0
+410,/tracks/RAP/Drake/Drake - Hotline Bling.mp3,1,RAP,0,0
+411,/tracks/RAP/Drake/God's Plan.mp3,1,RAP,0,0
+412,/tracks/RAP/Drake/Drake - Started From The Bottom.mp3,2,RAP,0,0
+413,/tracks/RAP/Drake/Passionfruit.mp3,2,RAP,0,0
+414,/tracks/RAP/Chance_the_Rapper/Chance the Rapper - Same Drugs (Official Video).mp3,1,RAP,0,0
+415,/tracks/RAP/Chance_the_Rapper/Chance The Rapper ft. Saba - Angels.mp3,1,RAP,0,0
+416,/tracks/RAP/Chance_the_Rapper/Chance the Rapper ft. 2 Chainz & Lil Wayne - No Problem (Official Video).mp3,4,RAP,0,0
+417,/tracks/RAP/Lil_Wayne/Lil Wayne - Lollipop (Official Music Video) ft. Static.mp3,1,RAP,0,0
+418,/tracks/RAP/Lil_Wayne/Lil Wayne - Mirror ft. Bruno Mars (Official Music Video).mp3,1,RAP,0,0
+419,"/tracks/RAP/Lil_Wayne/Lil Wayne - Love Me (Explicit Version-Closed Captioned) ft. Drake, Future.mp3",4,RAP,0,0
+420,/tracks/RAP/Future/Future - Life Is Good (Official Music Video) ft. Drake.mp3,3,RAP,2,0
+421,"/tracks/RAP/Future/Future, Metro Boomin, Travis Scott, Playboi Carti - Type Shit (Official Video).mp3",0,RAP,0,0
+422,"/tracks/RAP/Future/Future, Metro Boomin - Amazing (Interlude) (Official Audio).mp3",1,RAP,0,0
