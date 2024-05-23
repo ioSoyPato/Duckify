@@ -60,16 +60,29 @@
                 </a>
             </div>
         </div>
-        <div class="container" style="margin-top: 80px;">
+        <div class="container" style="margin-top: 50px;">
             <div class="music-player">
+            <div class="controls">
+                <a href="http://127.0.0.1:4444/playlist/{{genre}}/{{artist}}/{{title}}" class="no-underline">
+                    <button class="next-song">
+                        🥝
+                    </button>
+                </a>
+                <a href="http://127.0.0.1:4444/playlist/{{genre}}/{{artist}}/{{title}}" class="no-underline" style="margin-left: 90px;">
+                    <button class="next-song">
+                        🍩
+                    </button>
+                </a>
+            </div>
+            <!-- <a href="http://127.0.0.1:4444/playlist/{{genre}}/{{artist}}/{{title}}" style="font-size: 25px;">🥝</a> -->
             <h1 class="title1" style="font-size:large;">{{title_show}}</h1>
             <p class="artist1">{{artist_show}}</p>
-            
+
             <audio controls id="song", style="display: none;">
                 <source src="/static/tracks/{{genre}}/{{artist}}/{{title}}" type="audio/mpeg">
             </audio>
             <input type="range" value="0" id="progress">
-        
+
             <div class="controls">
                 <button class="back-button"><i class="fa-solid fa-backward"></i></button>
                 <button class="play-pause" onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></button>
@@ -77,11 +90,11 @@
                   <button class="next-song">
                     <i class="fa-solid fa-forward arrow-green"></i>
                   </button>
-                </a>  
-                <!-- <button class="next-song">
-                    <i class="fa-solid fa-forward arrow-green"></i>
-                </button> -->
-                <button class="like-button">🍉</button>      
+                </a>
+                <a href="{{url_for('like_song', genre=genre, artist=artist, title=title)}}" class="no-underline">
+                    <button onclick="likeSong('{{genre}}', '{{artist}}', '{{title}}')" class="like-button">🍉</button>
+                </a>                
+                <!-- <button class="like-button">🍉</button> -->
                 <!-- <button class="next-song"><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></button> -->
             </div>
             </div>
@@ -103,7 +116,7 @@
                 </div>
                 <!-- Nueva Cancion aquí -->
                 <div class="playlist">
-                    <a href="http://127.0.0.1:4444/home/music/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (Lyrics) we could be.mp3">
+                    <a href="http://127.0.0.1:4444/home/music/ELECTRONIC/Alesso/Alesso, Tove Lo - Heroes (  ) we could be.mp3">
                         <img src="/static4/playlist-cover-g.png" alt="Playlist Cover 2">
                         <div class="playlist--info">
                             <h3>Heroes</h3>
@@ -264,11 +277,11 @@
     </main>
 
     <script>
-        // Add an event listener to the input to check for the Enter key 
+        // Add an event listener to the input to check for the Enter key
         document.getElementById('body').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 event.preventDefault(); // Prevent the default action to stop the form from submitting
-                playPause(); 
+                playPause();
             }
         });
         document.getElementById('body').addEventListener('keypress', function(event) {
@@ -277,7 +290,7 @@
                 playPause();  //Change to like
             }
         });
-        
+
         window.onload = function() {
         var song = document.getElementById('song');
         var savedTime = localStorage.getItem('currentTime');
@@ -291,12 +304,12 @@
     let progress = document.getElementById('progress');
     let song = document.getElementById('song');
     let ctrlIcon = document.getElementById('ctrlIcon');
-    
+
     song.onloadeddata = function(){
         progress.max = song.duration;
         progress.value = song.currentTime;
     }
-    
+
     function playPause(){
         if(ctrlIcon.classList.contains('fa-pause')){
             song.pause();
@@ -320,5 +333,65 @@
       window.history.back();
   })
 
-    </script>    
+    window.onbeforeunload = function() {
+        localStorage.setItem('currentTime', song.currentTime);
+    }
+
+    window.onload = function() {
+          var song = document.getElementById('song');
+          var savedTime = localStorage.getItem('currentTime');
+          if (savedTime) {
+              song.currentTime = parseFloat(savedTime);
+              song.play();
+          }
+          else {console.log('No saved time');}
+      }
+
+    song.onloadeddata = function(){
+        progress.max = song.duration;
+        progress.value = song.currentTime;
+    }
+
+    function playPause(){
+        if(ctrlIcon.classList.contains('fa-pause')){
+            song.pause();
+            ctrlIcon.classList.remove('fa-pause');
+            ctrlIcon.classList.add('fa-play');
+        }
+        else{
+            song.play();
+            ctrlIcon.classList.add('fa-pause');
+            ctrlIcon.classList.remove('fa-play');
+        }
+    }
+
+    if (song.play()){
+        setInterval(() => {
+            progress.value = song.currentTime;
+        }, 500);
+    }
+
+    progress.onchange = function(){
+        song.play();
+        song.currentTime = progress.value;
+        ctrlIcon.classList.add('fa-pause');
+        ctrlIcon.classList.remove('fa-play');
+    }
+
+    document.querySelector('.back-button').addEventListener('click', function() {
+        window.history.back();
+    })
+
+    window.onbeforeunload = function() {
+            localStorage.setItem('currentTime', song.currentTime);
+        }
+
+    function likeSong(genre, artist, title) {
+        const url = `/home/music/like/${genre}/${artist}/${title}`;
+        fetch(url, {method: 'POST'})
+        .then(response => response.json())
+        .then(data => console.log(data));
+    }
+
+    </script>
 </body>

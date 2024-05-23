@@ -235,7 +235,7 @@ footer {
     align-items: center;
     background: rgba(4, 68, 105, 1);
     color: var(--primary-clr);
-    width: 190px;
+    width: 200px;
     height: 300px;
     padding: 25px 35px;
     border-radius: 20px;
@@ -279,19 +279,16 @@ footer {
   }
   
   .controls button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
+    width: 40px; /* Aumentado desde 40px para mejor accesibilidad */
     aspect-ratio: 1/1;
-    margin: 10px;
+    margin: 15px; /* Ajustado para más espacio entre botones */
     background: rgba(163, 162, 164, 0.3);
     color: var(--primary-clr);
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 10px 20px rgba(5, 36, 28, 0.3);
     cursor: pointer;
-  }
+}
   
   .controls button:is(:hover, :focus-visible) {
     transform: scale(0.96);
