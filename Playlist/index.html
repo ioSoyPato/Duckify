@@ -21,25 +21,26 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  background: url(https://i.pinimg.com/originals/3e/fe/1c/3efe1cb845954233246f60d5d8395dd0.gif) no-repeat center center fixed;
-  background-size: cover;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Cambiado de 'center' a 'space-evenly' */
+    min-height: 100vh;
+    width: 100%;
+    background: url(https://i.pinimg.com/originals/3e/fe/1c/3efe1cb845954233246f60d5d8395dd0.gif) no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    margin: 0;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay espacio suficiente */
 }
 
-
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  color: var(--primary-clr);
+    flex: 1 0 45%; /* Asegura que el contenedor tome casi la mitad del ancho disponible */
+    max-width: 500px; /* Limita el ancho máximo para evitar que sea demasiado grande */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px; /* Ajusta según sea necesario para cambiar el espaciado */
 }
 
 .music-player {
@@ -156,6 +157,24 @@ header a {
   text-decoration: none;
   font-size: 24px;
 }
+
+.container2 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0px; /* Ajusta el margen para acercar o alejar el contenedor de la letra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 0 45%; /* Similar al .container para mantener la consistencia */
+    max-width: 2000px; /* Mismo límite de ancho máximo */
+}
+
+.container2 .lyrics {
+    text-align: left; 
+    font-size: 16px; 
+    color: #333; 
+}
+
+
         
 </style>
 
@@ -191,8 +210,25 @@ header a {
     </div>
     </div>
 </div>
+<div class="container2">
+  <div class="lyrics">
+      <h2 style="margin-bottom: 10px;">Lyrics</h2>
+      <p>{{lyrics}}</p> <!-- Suponiendo que la letra está disponible en la variable 'lyrics' -->
+  </div>
+</div>
 
 <script>
+
+  window.onload = function() {
+          var song = document.getElementById('song');
+          var savedTime = localStorage.getItem('currentTime');
+          if (savedTime) {
+              song.currentTime = parseFloat(savedTime);
+              song.play();
+          }
+          else {console.log('No saved time');}
+      }
+
   let progress = document.getElementById('progress');
   let song = document.getElementById('song');
   let ctrlIcon = document.getElementById('ctrlIcon');
@@ -233,8 +269,8 @@ header a {
   })
 
   window.onbeforeunload = function() {
-    localStorage.setItem('currentTime', song.currentTime);
-  }
+        localStorage.setItem('currentTime', song.currentTime);
+    }
 
   
   </script>

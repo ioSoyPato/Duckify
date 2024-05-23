@@ -92,3 +92,17 @@ nav.circle{
     align-items: center;
     color:#f53192;
 }
+
+.container2 {
+    background-color: white; /* Fondo blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno para no tocar los bordes */
+    margin: 20px 0; /* Margen superior e inferior para separar de otros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+}
+
+.container2 .lyrics {
+    text-align: left; /* Alineación del texto a la izquierda */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto oscuro para mejor lectura */
+}
