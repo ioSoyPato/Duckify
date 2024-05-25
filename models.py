@@ -11,6 +11,7 @@ from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from minisom import MiniSom
+
 warnings.filterwarnings("ignore")
 
 def creatingDF(genre):
