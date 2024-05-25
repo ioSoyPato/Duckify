@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Home</title>
+    <link rel="stylesheet" href="/static5/style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="body">
+    <nav class="sidebar">
+        <div class="sidebar--brand">
+            <img src="/static4/logo2.png" alt="Logo">
+        </div>
+        <div class="menu menu-extra">
+            <div class="menu--item active">
+                <a href="http://127.0.0.1:4444/home/music/">
+                    <span class="iconify" data-icon="mdi:home-outline"></span>
+                    <span>Home</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span class="iconify" data-icon="mdi:magnify"></span>
+                    <span>Search</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span class="iconify" data-icon="mdi:library-music"></span>
+                    <span>Your Library</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span>🍉 Liked Songs</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="https://github.com/ioSoyPato/Duckify" target="_blank">
+                    <span class="iconify" data-icon="mdi:playlist-music"></span>
+                    <span>Git-Hub</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="#">
+                    <span class="iconify" data-icon="mdi:podcast"></span>
+                    <span>Settings</span>
+                </a>
+            </div>
+            <div class="menu--item">
+                <a href="http://127.0.0.1:4444">
+                    <span class="iconify" data-icon="mdi:radio"></span>
+                    <span>log-out</span>
+                </a>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 50px;">
+            <div class="music-player">
+            <div class="controls">
+                <a href="http://127.0.0.1:4444/playlist/{{genre}}/{{artist}}/{{title}}" class="no-underline">
+                    <button class="next-song">
+                        🥝
+                    </button>
+                </a>
+                <a href="http://127.0.0.1:4444/playlist/{{genre}}/{{artist}}/{{title}}" class="no-underline" style="margin-left: 90px;">
+                    <button class="next-song">
+                        🍩
+                    </button>
+                </a>
+            </div>
+            <!-- <a href="http://127.0.0.1:4444/playlist/{{genre}}/{{artist}}/{{title}}" style="font-size: 25px;">🥝</a> -->
+            <h1 class="title1" style="font-size:large;">{{title_show}}</h1>
+            <p class="artist1">{{artist_show}}</p>
+
+            <audio controls id="song", style="display: none;">
+                <source src="/static/tracks/{{genre}}/{{artist}}/{{title}}" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <button class="back-button"><i class="fa-solid fa-backward"></i></button>
+                <button class="play-pause" onclick="playPause()"><i class="fa-solid fa-pause" id="ctrlIcon"></i></button>
+                <a href="{{url_for('get_next_song_home', genre=genre, artist=artist, title=title)}}" class="no-underline">
+                  <button class="next-song">
+                    <i class="fa-solid fa-forward arrow-green"></i>
+                  </button>
+                </a>
+                <a href="#" class="no-underline">
+                    <button class="like-button">🍉</button>
+                </a>        
+                <!-- <button class="like-button">🍉</button> -->
+                <!-- <button class="next-song"><a href="{{url_for('get_next_song', genre=genre, artist = artist, title=title)}}"><i class="fa-solid fa-forward"></i></a></button> -->
+            </div>
+            </div>
+        </div>
+
+
+    </nav>
+    <main class="main-content">
+        <h1>All Songs</h1>
+        <div><p>Buscador</p></div>
+        <div class="playlists">
+            <div class="playlists-container">
+                {% for song in songs %}
+                <div class="playlist">
+                    <a href="{{ song }}">
+                        <img src="{{ song }}" alt="Playlist Cover">
+                        <div class="playlist--info">
+                            <h3>{{ song }}</h3>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}                           
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Add an event listener to the input to check for the Enter key
+        document.getElementById('body').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Prevent the default action to stop the form from submitting
+                playPause();
+            }
+        });
+        document.getElementById('body').addEventListener('keypress', function(event) {
+            if (event.key === 'l') {
+                event.preventDefault(); // Prevent the default action to stop the form from submitting
+                playPause();  //Change to like
+            }
+        });
+
+        window.onload = function() {
+        var song = document.getElementById('song');
+        var savedTime = localStorage.getItem('currentTime');
+        if (savedTime) {
+            song.currentTime = parseFloat(savedTime);
+            song.play();
+        }
+        else {console.log('No saved time');}
+    }
+
+    let progress = document.getElementById('progress');
+    let song = document.getElementById('song');
+    let ctrlIcon = document.getElementById('ctrlIcon');
+
+    song.onloadeddata = function(){
+        progress.max = song.duration;
+        progress.value = song.currentTime;
+    }
+
+    function playPause(){
+        if(ctrlIcon.classList.contains('fa-pause')){
+            song.pause();
+            ctrlIcon.classList.remove('fa-pause');
+            ctrlIcon.classList.add('fa-play');
+        }
+        else{
+            song.play();
+            ctrlIcon.classList.add('fa-pause');
+            ctrlIcon.classList.remove('fa-play');
+        }
+    }
+
+    if (song.play()){
+      setInterval(() => {
+          progress.value = song.currentTime;
+      }, 500);
+    }
+
+    document.querySelector('.back-button').addEventListener('click', function() {
+      window.history.back();
+  })
+
+    window.onbeforeunload = function() {
+        localStorage.setItem('currentTime', song.currentTime);
+    }
+
+    window.onload = function() {
+          var song = document.getElementById('song');
+          var savedTime = localStorage.getItem('currentTime');
+          if (savedTime) {
+              song.currentTime = parseFloat(savedTime);
+              song.play();
+          }
+          else {console.log('No saved time');}
+      }
+
+    song.onloadeddata = function(){
+        progress.max = song.duration;
+        progress.value = song.currentTime;
+    }
+
+    function playPause(){
+        if(ctrlIcon.classList.contains('fa-pause')){
+            song.pause();
+            ctrlIcon.classList.remove('fa-pause');
+            ctrlIcon.classList.add('fa-play');
+        }
+        else{
+            song.play();
+            ctrlIcon.classList.add('fa-pause');
+            ctrlIcon.classList.remove('fa-play');
+        }
+    }
+
+    if (song.play()){
+        setInterval(() => {
+            progress.value = song.currentTime;
+        }, 500);
+    }
+
+    progress.onchange = function(){
+        song.play();
+        song.currentTime = progress.value;
+        ctrlIcon.classList.add('fa-pause');
+        ctrlIcon.classList.remove('fa-play');
+    }
+
+    document.querySelector('.back-button').addEventListener('click', function() {
+        window.history.back();
+    })
+
+    window.onbeforeunload = function() {
+            localStorage.setItem('currentTime', song.currentTime);
+        }
+
+    function likeSong(genre, artist, title) {
+        const url = `/home/music/like/${genre}/${artist}/${title}`;
+        fetch(url, {method: 'POST'})
+        .then(response => response.json())
+        .then(data => console.log(data));
+    }
+
+    </script>
+</body>
