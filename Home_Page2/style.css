@@ -340,4 +340,9 @@ footer {
     text-decoration: none;
     font-size: 24px;
   }
+
+  .emoji-size {
+    width: 2px; /* Ajusta el tamaño según sea necesario */
+    height: 2px; /* Ajusta el tamaño según sea necesario */
+}
   

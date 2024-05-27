@@ -8,9 +8,11 @@ from fastapi import FastAPI, Form, HTTPException, status
 from fastapi.responses import RedirectResponse
 import uvicorn
 import pandas as pd
+from fastapi import logger
 
 # Importing the recommendation function on the recommendation.py file
 from recommendation import recommend_song, graphic_spectogram, update_times_played, get_lyrics
+from database_management import read_table_as_dataframe
 
 # Function to clean the artist and title of a song to make it more readable
 def cleaned_data(artist:str, genre:str, title:str):
@@ -48,11 +50,14 @@ templates3 = Jinja2Templates(directory="Search")
 
 
 # immport credencials from the database (Beta)
-credencial = pd.read_csv("DataBase/User.csv")
+credencial = read_table_as_dataframe("USER")
+
+logger.logger.info("APP MOUNTED")
 
 # Create the route for the status of the server and the hello world message
 @app.get("/helloworld")
 def greeting():
+    logger.logger.info("SERVING ENDPOINT")
     return {"message": f"Hello World. Welcome to my first web app. Add /home to the URL to see the home page."}
 
 @app.get("/status")
@@ -67,9 +72,8 @@ async def user():
     return FileResponse("Users/index.html")
 
 
-User = pd.read_csv("DataBase/User.csv")
+User = read_table_as_dataframe("USER")
 SONG_DB = pd.read_csv("DataBase/SONGS_DB.csv")
-
 
 # Create the user authentication route
 @app.post("/login")
@@ -91,10 +95,10 @@ async def login(email: str = Form(...), password: str = Form(...), remember_me: 
 async def home(request: Request):
     if valid_user:
         return templates2.TemplateResponse(
-            request=request, name="index.html", context={"title": "Side To Side.mp3", "artist": "artist", "genre": "POP", "title_show": "Duckify", "artist_show":"by Pato & Pepechui"}
+            request=request, name="index.html", context={"title": "Side To Side.mp3", "artist": "artist", "genre": "POP", "title_show": "Duckify", "artist_show":"by Pato, Pepechui & Dafne"}
         )
     else:
-        return {"Listillo":"Te querias saltar la validacion, eh?"}
+        return RedirectResponse(url="http://127.0.0.1:4444/")
 
 # Create the route for the home page with the song information
 @app.get("/home/music/{genre}/{artist}/{title}")
@@ -102,18 +106,18 @@ async def musicHome(request: Request, genre: str, artist: str, title:str):
     artist_show = cleaned_data(artist, genre, title)[0]
     title_Show = cleaned_data(artist, genre, title)[1]
     update_times_played(f"/tracks/{genre}/{artist}/{title}")
-    if True:
+    if valid_user:
         return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "id": 1, "title_show":title_Show, "artist_show":artist_show}
     )
-    return {"error":f"error in the path {genre}/{artist}/{title}"}
+    return RedirectResponse(url="http://127.0.0.1:4444/")
 
 
 # Create the route for the recommendation of a song
 @app.get("/home2/music/{genre}/{artist}/{title}", response_class=HTMLResponse)
 async def get_next_song_home(request: Request, genre: str, artist: str, title:str):
     path = f"/tracks/{genre}/{artist}/{title}"
-    if True:
+    if valid_user:
         a = recommend_song(path,genre)
         genre = a["genre"]
         artist = a["artist"]
@@ -123,7 +127,7 @@ async def get_next_song_home(request: Request, genre: str, artist: str, title:st
         return templates2.TemplateResponse(
         request=request, name="index.html", context={"title": title, "artist": artist, "genre": genre, "title_show": title_Show, "artist_show":artist_show}
     )
-    return {"error":f"error in the path {path}"}
+    return RedirectResponse(url="http://127.0.0.1:4444/")
 
 
 # Create the method for the Lyric page
@@ -166,7 +170,9 @@ async def music_carousel(request: Request):
             "title": row['shortedPath'].split('/')[-1].split('.')[0] 
         } for index, row in SONGS_DB.iterrows()
     ]
-    return templates3.TemplateResponse("index.html", {"request": request, "songs": songs})
+    # images =  get_images()
+    images = ""
+    return templates3.TemplateResponse("index.html", {"request": request, "songs": songs, "images": images,"title":"All Music","genre":"pop","artist":"Hola"})
 
 
 # Main function to run the server

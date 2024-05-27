@@ -6,6 +6,7 @@ import librosa
 import matplotlib.pyplot as plt
 import requests
 
+from database_management import read_table_as_dataframe
 
 # Read the csv (DataBase songs)
 SONGS_DB = pd.read_csv("DataBase/SONGS_DB.csv")
