@@ -50,12 +50,22 @@ Login
 ![image](https://github.com/ioSoyPato/Duckify/assets/108914351/a1596f10-ce73-41c9-b62f-f6cccde17637)
 
 Home Page
-![image](https://github.com/ioSoyPato/Duckify/assets/108914351/b0b42c7f-7112-404c-907f-550009d58492)
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/e705b0f7-7197-40a0-b78a-1557bfddf87a)
 
 
 Music Player
-[Screencast from 17-05-24 13:23:21.webm](https://github.com/ioSoyPato/Duckify/assets/108914351/3adc2c00-caa7-4bd6-9f99-503a1b31599f)
-![image](https://github.com/ioSoyPato/Duckify/assets/108914351/77ddba7f-1fa9-4f7e-9004-018a54e32a9d)
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/0b002128-d3e4-4958-8096-eaef55f9f0f9)
+
+Lyrics
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/262f6080-4a59-4b76-b1b4-b56433581b3e)
+
+Rick & Homer __Covers__
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/7f671799-2c9d-48a8-ae5e-33110a0ae3d0)
+
+All Songs
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/bc85a75c-2545-49d2-9840-fed54a28c7cd)
+![image](https://github.com/ioSoyPato/Duckify/assets/108914351/d15d36d1-353a-4a72-a647-33bae6abd538)
+
 
 Playlist Player
 __coming soon__
